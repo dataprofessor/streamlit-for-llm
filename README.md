@@ -3,7 +3,7 @@
 </p>
 
 ## About
-> The *Streamlit for Generative AI* course will show you how to use Streamlit to prepare and analyze data as well as embed data visualizations and machine learning models right inside the Streamlit app. The best part of is that you can use various input and output widgets to make the app interactive and data-driven! Finally you can deploy the Streamlit app to the cloud and share with the community.
+> The *Streamlit for Generative AI* course will show you how to use Streamlit to build large language model (LLM) powered apps. Finally you can deploy the Streamlit app to the cloud and share with the community.
 
 ## Table of contents
 - [**Lesson 1** - Getting up to speed with Streamlit](./content/Lesson-1.md)
@@ -41,9 +41,9 @@
 ## Citing us
 Please use the following to cite this content:
 ```
-@misc{st4ds,
+@misc{st4genai,
     author = {Chanin Nantasenamat},
-    title = {Streamlit for Data Science Course},
+    title = {Streamlit for Generative AI Course},
     howpublished = {Streamlit Open Source, Snowflake Inc.},
     url = {\url{https://streamlit.io/}},
     year = {2023}
