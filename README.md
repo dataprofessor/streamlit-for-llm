@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./img/course-logo.png" width="60%">
+  <img src="./img/streamlit-generative-ai-course-logo.png" width="60%">
 </p>
 
 ## About
