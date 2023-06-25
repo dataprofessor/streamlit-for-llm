@@ -20,6 +20,7 @@
 - [**Project 5** - Using Scikit-learn to create an ML model in Streamlit](./content/Project-5.md)
 
 ## Resources
+- [Build powerful generative AI apps](https://streamlit.io/generative-ai) - Streamlit resources on building LLM-powered apps.
 - [Streamlit Quests](https://blog.streamlit.io/streamlit-quests-getting-started-with-streamlit/) - Start here to conveniently access all essential resources for learning and using Streamlit.
 - [Streamlit Documentation](https://docs.streamlit.io/) - Your go-to place on using the Streamlit library.
 - [Streamlit Cheat Sheet](https://docs.streamlit.io/library/cheatsheet) - All Streamlit commands on one-page.
