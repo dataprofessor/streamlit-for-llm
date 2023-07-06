@@ -25,7 +25,7 @@
 - [#30DaysOfStreamlit](https://30days.streamlit.app/) - A Streamlit learning challenge.
 - [Streamlit Forum](https://discuss.streamlit.io/) - Get unstuck and help others in using Streamlit.
 
-## Python Data Libraries taught in this course
+## Python Libraries taught in this course
 
 <table>
   <tr>
