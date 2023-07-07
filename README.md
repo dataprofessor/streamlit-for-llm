@@ -8,7 +8,8 @@
 ## Table of contents
 - [**Lesson 1** - Getting up to speed with Streamlit](./content/Lesson-1.md)
 - [**Lesson 2** - Getting up to speed with OpenAI](./content/Lesson-2.md)
-- [**Lesson 3** - Getting up to speed with LangChain](./content/Lesson-3.md)
+- [**Lesson 3** - Getting up to speed with LLMs on Hugging Face Hub](./content/Lesson-2.md)
+- [**Lesson 4** - Getting up to speed with LangChain](./content/Lesson-3.md)
 - [**Project 1** - Build a ChatGPT clone](./content/Project-1.md)
 - [**Project 2** - Build a Blog Outline Generator](./content/Project-2.md)
 - [**Project 3** - Build a YouTube Summarizer](./content/Project-3.md)
