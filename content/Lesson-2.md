@@ -6,6 +6,7 @@
 3. [GPT for Text Generation](#3-gpt-for-text-generation)
 4. [Getting your own OpenAI API key](#4-getting-your-own-openai-api-key)
 5. [Installing OpenAI](#5-installing-openai-python-library)
+6. [Setting the OpenAI API key on a local computer](6-setting-the-openai-api-key-on-a-local-computer)
 
 ## 1. What is OpenAI?
 
