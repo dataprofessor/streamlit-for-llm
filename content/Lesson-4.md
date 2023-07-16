@@ -13,6 +13,17 @@
    <img src="../img/lesson-4-langchain-star-history.png" width="65%">
 </p>
 
+At a high level, LangChain connects LLM models (such as OpenAI and HuggingFace Hub) to external sources like Google, Wikipedia, Notion, and Wolfram. It provides abstractions (chains and agents) and tools (prompt templates, memory, document loaders, output parsers) to interface between text input and output. LLM models and components are linked into a pipeline "chain," making it easy for developers to rapidly prototype robust applications. Simply put, Langchain orchestrates the LLM pipeline.
+
+LangChain's power lies in its six key modules:
+
+1. **Model I/O:** Facilitates the interface of model input (prompts) with the LLM model (closed or open-source) to produce the model output (output parsers)
+2. **Data connection:** Enables user data to be loaded (document loaders), transformed (document transformers), stored (text embedding models and vector stores) and queried (retrievers)
+3. **Memory:** Confer chains or agents with the capacity for short-term and long-term memory so that it remembers previous interactions with the user
+4. **Chains:** A way to combine several components or other chains in a single pipeline (or “chain”)
+5. **Agents:** Depending on the input, the agent decides on a course of action to take with the available tools/data that it has access to
+6. **Callbacks:** Functions that are triggered to perform at specific points during the duration of an LLM run
+
 ## 2. Installing LangChain
 
 The LangChain library can be installed via `pip` as follows:
