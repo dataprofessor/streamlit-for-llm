@@ -59,7 +59,9 @@ An alternative to steps 1-3 mentioned above, you can also:
 
 Let's have a look at a short recording showing how to get your own OpenAI API key:
 
-<INSERT IMAGE>
+<p align="center">
+   <img src="../img/lesson-2-getting-api-key.gif" width="65%">
+</p>
 
 ```
 💡 Note: Make sure to not share your API key in public repositories 
