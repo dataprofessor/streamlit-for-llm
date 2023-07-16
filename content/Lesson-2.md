@@ -10,7 +10,8 @@
 7. [OpenAI for text generation](#7-openai-for-text-generation)
 8. [Using the Chat Completion API](#8-using-the-chat-completion-api)
 9. [Creating our simple ChatGPT-like chatbot](#9-creating-our-simple-chatgpt-like-chatbot)
-10. [Summary](#10-summary)
+10. [Spicing up the LLM generated response](#10-spicing-up-the-llm-generated-response)
+11. [Summary](#11-summary)
 
 ## 1. What is OpenAI?
 
@@ -250,7 +251,7 @@ Possible values of the top_p parameter is in the range of 0 and 1. The top_p val
 
 Suggested starting points to try out for these 2 parameters is rationalized in an OpenAI forum response entitled [_Mastering Temperature and Top_p in ChatGPT API_](https://medium.com/r/?url=https%3A%2F%2Fcommunity.openai.com%2Ft%2Fcheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api-a-few-tips-and-tricks-on-controlling-the-creativity-deterministic-output-of-prompt-responses%2F172683).
 
-## Conclusion
+## 11. Summary
 
 In summary, this lesson have laid the groundwork for getting started with using the OpenAI Python library to create a useful LLM tool for blog ideation as well as a simple chatbot. Armed with this new knowledge and set of skills, you're now ready to build impactful generative AI tools for addressing any real-world problem that interests you.
 
