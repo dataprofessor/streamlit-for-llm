@@ -31,5 +31,5 @@ The LangChain library can be installed via `pip` as follows:
 pip install langchain
 ```
 > 💡 Note
->
+> 
 > Check out the LangChain documentation for further information on each of these modules.
