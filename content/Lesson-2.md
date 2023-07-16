@@ -64,9 +64,7 @@ Let's have a look at a short recording showing how to get your own OpenAI API ke
 </p>
 
 ```
-💡 Note: Make sure to not share your API key in public repositories 
-         as others may use your API key and in doing so consume your
-         API credits.
+💡 Note: Make sure to not share your API key in public repositories as others may use your API key and in doing so consume your API credits.
 ```
 
 Further information for safely using API keys is summarized in the blog, [8 tips for securely using API keys](https://blog.streamlit.io/8-tips-for-securely-using-api-keys/)
