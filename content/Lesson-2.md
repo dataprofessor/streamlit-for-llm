@@ -191,7 +191,9 @@ print(completion.choices[0].message)
 
 The code snippet mentioned above works in a Colab or Jupyter notebook environment, as well as in a command line interface. For the latter, if you save it as a file (for instance as `blog.py`)  you can run it in the command line by typing python `blog.py`
 
-<INSERT IMAGE>
+<p align="center">
+   <img src="../img/lesson-2-blog-py.gif" width="65%">
+</p>
 
 ## 9. Creating our simple ChatGPT-like chatbot 
 
@@ -239,7 +241,9 @@ while True:
 
 The above code snippet works in a Colab or Jupyter notebook and also works in the command line, when saved as a file such as chatbot.py and then running it via `python chatbot.py`
 
-<INSERT IMAGE>
+<p align="center">
+   <img src="../img/lesson-2-chatbot-py.gif" width="65%">
+</p>
 
 ## 10. Spicing up the LLM generated response
 
