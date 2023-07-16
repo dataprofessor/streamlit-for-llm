@@ -31,3 +31,4 @@ The LangChain library can be installed via `pip` as follows:
 pip install langchain
 ```
 
+<p class="callout info">Check out the LangChain documentation for further information on each of these modules.</p>
