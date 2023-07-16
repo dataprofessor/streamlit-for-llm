@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [What is LangChain?](#1-what-is-langchain)
 2. [Installing LangChain](#2-installing-langchain)
-
+3. [Using LangChain](#3-using-langchain)
 
 ## 1. What is LangChain?
 
@@ -13,7 +13,7 @@
    <img src="../img/lesson-4-langchain-star-history.png" width="65%">
 </p>
 
-At a high level, LangChain connects LLM models (such as OpenAI and HuggingFace Hub) to external sources like Google, Wikipedia, Notion, and Wolfram. It provides abstractions (chains and agents) and tools (prompt templates, memory, document loaders, output parsers) to interface between text input and output. LLM models and components are linked into a pipeline "chain," making it easy for developers to rapidly prototype robust applications. Simply put, Langchain orchestrates the LLM pipeline.
+At a high level, LangChain connects LLM models (such as OpenAI and HuggingFace Hub) to external sources like Google, Wikipedia, Notion, and Wolfram. It provides abstractions (chains and agents) and tools (prompt templates, memory, document loaders, output parsers) to interface between text input and output. LLM models and components are linked into a pipeline "chain," making it easy for developers to rapidly prototype robust applications. Simply put, LangChain orchestrates the LLM pipeline.
 
 LangChain's power lies in its six key modules:
 
@@ -36,6 +36,7 @@ pip install langchain
 ```
 
 ## 3. Using LangChain
+
 
 
 
