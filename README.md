@@ -43,7 +43,7 @@ Please use the following to cite this content:
 @misc{st4genai,
     author = {Chanin Nantasenamat},
     title = {Streamlit for Generative AI Course},
-    howpublished = {Streamlit Open Source, Snowflake Inc.},
+    howpublished = {Streamlit Open Source},
     url = {\url{https://streamlit.io/}},
     year = {2023}
 }
