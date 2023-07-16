@@ -52,7 +52,7 @@ Particularly, we're going to clone the EDA app from a YouTube tutorial video on 
 Create a conda environment called eda:
 
 ```
-conda create -n eda python=3.7.9
+conda create -n eda python=3.8
 ```
 
 **Step 2.** Activate the eda environment:
@@ -64,7 +64,7 @@ conda activate eda
 **Step 3.** To install prerequisite libraries we must first download the requirements.txt file (it contains the library version numbers):
 
 ```
-wget https://raw.githubusercontent.com/dataprofessor/eda-app/main/requirements.txt
+wget https://raw.githubusercontent.com/dataprofessor/ydata_profiling/main/requirements.txt
 ```
 
 **Step 4.** To actually install prerequisite libraries using the requirements.txt file
@@ -76,17 +76,13 @@ pip install -r requirements.txt
 Inside the `requirements.txt` file you'll see the following contents:
 
 ```
-streamlit==0.71.0
-pandas==1.1.3
-numpy==1.19.2
-pandas-profiling==2.10.0
-streamlit-pandas-profiling==0.1.1
-Jinja2==3.0.3
+streamlit
+pandas
+ydata_profiling
+streamlit_pandas_profiling
 ```
 
-You'll notice that in the above contents, we're using legacy versions of the Python libraries, which is to be expected as this is from a tutorial from 2 years ago. In spite of this, the app should still work as the specific dependent Python libraries are specified in the `requirements.txt` file.
-
-**Step 5.** Download and unzip contents from the GitHub repo: https://github.com/dataprofessor/eda-app/archive/main.zip
+**Step 5.** Download and unzip contents from the GitHub repo: https://github.com/dataprofessor/ydata_profiling/archive/main.zip
 
 **Step 6.** Launch the app:
 
