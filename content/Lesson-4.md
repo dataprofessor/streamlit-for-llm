@@ -37,7 +37,7 @@ pip install langchain
 
 ## 3. Using LangChain
 
-
+Let's now proceed to building a simple LLM workflow that makes use of both LangChain and OpenAI.
 
 
 
