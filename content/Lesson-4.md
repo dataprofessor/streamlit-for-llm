@@ -39,6 +39,34 @@ pip install langchain
 
 Let's now proceed to building a simple LLM workflow that makes use of both LangChain and OpenAI.
 
+In the following example, we're going to use 2 LangChain features particularly:
+1. Prompt template
+2. Simple chain
 
+```python
+from langchain.llms import OpenAI
+from langchain import PromptTemplate, LLMChain
 
+# Prompt
+template = """Question: {question}
+Answer: Let's think step by step."""
+prompt = PromptTemplate(template=template, input_variables=["question"])
+
+# LLM chain
+llm = OpenAI()
+llm_chain = LLMChain(prompt=prompt, llm=llm)
+
+# LLM generated response
+question = "What NBA team won the Championship in the year Michael Jordan was born?"
+llm_chain.run(question)
+```
+
+This gives the resulting output:
+
+```
+First, Michael Jordan was born in 1963.
+Second, the National Basketball Association (NBA) was founded in 1946.
+Therefore, in 1963, the NBA was in its 17th season.
+Finally, the Boston Celtics won the NBA championship in 1963.
+```
 
