@@ -24,7 +24,7 @@ LangChain's power lies in its six key modules:
 5. **Agents:** Depending on the input, the agent decides on a course of action to take with the available tools/data that it has access to
 6. **Callbacks:** Functions that are triggered to perform at specific points during the duration of an LLM run
 
-> **Note**
+> **💡 Note**
 > 
 > Check out the [LangChain documentation](https://python.langchain.com/?ref=blog.streamlit.io) for further information on each of these modules.
 
