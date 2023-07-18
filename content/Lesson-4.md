@@ -43,6 +43,8 @@ In the following example, we're going to use 2 LangChain features particularly:
 1. Prompt template
 2. Simple chain
 
+These 2 features were intentionally selected to show the use of LLMs with the chains feature. Particularly, we're chaining together a _prompt_ component with an _LLM_ component.
+
 ```python
 from langchain.llms import OpenAI
 from langchain import PromptTemplate, LLMChain
@@ -70,3 +72,4 @@ Therefore, in 1963, the NBA was in its 17th season.
 Finally, the Boston Celtics won the NBA championship in 1963.
 ```
 
+We can see that the output is thinking step by step before deriving the final answer, which is what we explicitly told the LLM to do in the provided prompt.
