@@ -119,7 +119,6 @@ First, we'll create the content of the prompt template and assign it to the `tem
 
 Second, we'll dynamically create the `prompt` using the `PromptTemplate()` method using two prompt components: 1) `template` and `input_variables`. The first component is already explained above as for the second component the user-provided question that we'll use in a forthcoming step, will be assigned as an input argument to the `input_variables` parameter.
 
-
 ```python
 # Prompt
 template = """Question: {question}
@@ -127,6 +126,9 @@ Answer: Let's think step by step."""
 prompt = PromptTemplate(template=template, input_variables=["question"])
 ```
 
+**Creating a simple LLM chain**
+
+Here, we'll create the chain using the `LLMChain()` method and assign this to the `llm_chain` variable. As input arguments, we're defining the `prompt` and `llm`, which corresponds to the prompt template defined earlier and the newly defined LLM model using the `OpenAI()` method.
 
 ```python
 # LLM chain
@@ -134,8 +136,12 @@ llm = OpenAI()
 llm_chain = LLMChain(prompt=prompt, llm=llm)
 ```
 
+**Generate LLM response**
+
+Finally, we'll generate the LLM response by running `llm_chain.run()` while using the newly defined `question` as an input argument. Remember the prompt template that we mentioned earlier? Well, the question will be appended to the prompt template as 
 ```python
 # LLM generated response
 question = "What NBA team won the Championship in the year Michael Jordan was born?"
 llm_chain.run(question)
 ```
+
