@@ -37,7 +37,11 @@ pip install langchain
 
 ## 3. Setting your OpenAI API key
 
-When using the LLM model from OpenAI, we're going to need an API key. Please refer to [Getting your own OpenAI API key](Lesson-2.md#4-getting-your-own-openai-apikey) from Lesson 2 of this course.
+When using the LLM model from OpenAI, we're going to need an API key. 
+
+> 💡 Note
+>
+> To get an API key, please refer to [Getting your own OpenAI API key](Lesson-2.md#4-getting-your-own-openai-apikey) from Lesson 2 of this course.
 
 ## 4. Using LangChain
 
