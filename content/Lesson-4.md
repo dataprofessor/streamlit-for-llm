@@ -39,7 +39,7 @@ pip install langchain
 
 When using the LLM model from OpenAI, we're going to need an API key. 
 
-> 💡 Note
+> **💡 Note**
 >
 > To get an API key, please refer to [Getting your own OpenAI API key](Lesson-2.md#4-getting-your-own-openai-apikey) from Lesson 2 of this course.
 
