@@ -38,13 +38,31 @@ pip install langchain
 
 ## 3. Setting your OpenAI API key
 
-When using the LLM model from OpenAI, we're going to need an API key. 
+When using the LLM model from OpenAI, we're going to need an API key.
 
 > **💡 Note**
 >
 > To get an API key, please refer to [Getting your own OpenAI API key](Lesson-2.md#4-getting-your-own-openai-apikey) from Lesson 2 of this course.
 
+Once we have an API key, make sure to set the API key `sk-xxxxxxxxxx` to the environment variable `OPENAI_API_KEY`.
+
+In a Colab notebook:
+1. I've started by saving the API key to an `openai.txt` file, then upload that to the Colab notebook (clicking on the left sidebar).
+2. Run the following code cell:
+
+```python
+import os
+
+with open('openai.txt', 'r') as f: # Reading the text file
+  os.environ['OPENAI_API_KEY'] = f.readline() # Assigning the API key
+  f.close()
+```
+
+Now, we're good to go!
+
 ## 4. Using LangChain
+
+### Building a simple LLM chain
 
 Let's now proceed to building a simple LLM workflow that makes use of both LangChain and OpenAI.
 
@@ -82,3 +100,14 @@ Finally, the Boston Celtics won the NBA championship in 1963.
 ```
 
 We can see that the output is thinking step by step before deriving the final answer, which is what we explicitly told the LLM to do in the provided prompt.
+
+### Code explanation
+
+Let's slow down a bit and dissect the code.
+
+Firstly, we've started by importing the prerequisite libraries:
+
+```python
+from langchain.llms import OpenAI
+from langchain import PromptTemplate, LLMChain
+```
