@@ -53,7 +53,7 @@ Follow the following steps to get your own API key from OpenAI:
 
 That's all it takes to create your own OpenAI API key, which starts with `sk-`.
 
-> 💡 Note
+> **💡 Note**
 >
 > An alternative to steps 1-3 mentioned above, you can also:
 > 1. Make sure that you're logged in to your OpenAI account
@@ -65,7 +65,7 @@ Let's have a look at a short recording showing how to get your own OpenAI API ke
    <img src="../img/lesson-2-getting-api-key.gif" width="65%">
 </p>
 
-> 💡 Note 
+> **💡 Note**
 >
 > Make sure to not share your API key in public repositories as others may use your API key and in doing so consume your API credits.
 
