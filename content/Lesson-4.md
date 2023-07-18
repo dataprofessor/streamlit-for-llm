@@ -3,7 +3,8 @@
 ## Table of Contents
 1. [What is LangChain?](#1-what-is-langchain)
 2. [Installing LangChain](#2-installing-langchain)
-3. [Using LangChain](#3-using-langchain)
+3. [Setting your OpenAI API key](#3-setting-your-openai-api-key)
+4. [Using LangChain](#4-using-langchain)
 
 ## 1. What is LangChain?
 
