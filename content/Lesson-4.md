@@ -105,9 +105,37 @@ We can see that the output is thinking step by step before deriving the final an
 
 Let's slow down a bit and dissect the code.
 
-Firstly, we've started by importing the prerequisite libraries:
+**Import libraries**
+Initially, we'll import the prerequisite libraries:
 
 ```python
 from langchain.llms import OpenAI
 from langchain import PromptTemplate, LLMChain
+```
+**Dynamically creating the prompt**
+Next, we apply the `PromptTemplate()` method on the two prompt components: 1) `template` and `input_variables`.
+
+First, we'll create the content of the prompt template and assign it to the `template` variable, which we'll use as an input argument for the subsequent line.
+
+Second, we'll dynamically create the `prompt` using the `PromptTemplate()` method using two prompt components: 1) `template` and `input_variables`. The first component is already explained above as for the second component the user-provided question that we'll use in a forthcoming step, will be assigned as an input argument to the `input_variables` parameter.
+
+
+```python
+# Prompt
+template = """Question: {question}
+Answer: Let's think step by step."""
+prompt = PromptTemplate(template=template, input_variables=["question"])
+```
+
+
+```python
+# LLM chain
+llm = OpenAI()
+llm_chain = LLMChain(prompt=prompt, llm=llm)
+```
+
+```python
+# LLM generated response
+question = "What NBA team won the Championship in the year Michael Jordan was born?"
+llm_chain.run(question)
 ```
