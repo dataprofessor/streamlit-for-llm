@@ -145,3 +145,7 @@ question = "What NBA team won the Championship in the year Michael Jordan was bo
 llm_chain.run(question)
 ```
 
+## 5. Summary
+
+In this lesson, we've seen how we can leverage the LangChain library to orchestrate a simple LLM chain by fusing a prompt template and the LLM model together in generating the LLM response. There are several other features that LangChain provides and examples for doing so are provided in the [LangChain documentation](https://python.langchain.com/). Additionally, we'll also get to see other LangChain features in action in subsequent Project sections of this course.
+
