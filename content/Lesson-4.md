@@ -35,7 +35,11 @@ The LangChain library can be installed via `pip` as follows:
 pip install langchain
 ```
 
-## 3. Using LangChain
+## 3. Setting your OpenAI API key
+
+When using the LLM model from OpenAI, we're going to need an API key. Please refer to [Getting your own OpenAI API key](../Lesson-2.md#4-getting-your-own-openai-apikey) from Lesson 2 of this course.
+
+## 4. Using LangChain
 
 Let's now proceed to building a simple LLM workflow that makes use of both LangChain and OpenAI.
 
