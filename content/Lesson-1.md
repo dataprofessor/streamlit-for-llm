@@ -127,6 +127,16 @@ Here's a line-by-line breakdown of the code:
   2. Use `st.write` to write a text output and inside the `st.write` command we use the `'Hello world!'` string as the input argument.
 </details>
 
+## 6. Running the Streamlit app
+
+Locally, you can run the newly created Streamlit app by launching a command-line terminal and enter the following:
+
+```
+streamlit run streamlit_app.py
+```
+
+where `streamlit_app.py` is the Streamlit app that you've just created.
+
 ## Summary
 
 In this lesson, we're introduced to Streamlit along with how to setup a computing environment as well as creating our first Streamlit app.
