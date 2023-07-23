@@ -1,5 +1,7 @@
 # 📓 Lesson 1 - Getting up to speed with Streamlit
 
+In this lesson, we'll get you started with Streamlit from going over the overarching concept of this low-code web framework, setting up a coding environment and to writing your first Streamlit app.
+
 ## Table of Contents
 1. [What is Streamlit?](#1-what-is-streamlit)
 2. [Prerequisites](#2-prerequisites)
