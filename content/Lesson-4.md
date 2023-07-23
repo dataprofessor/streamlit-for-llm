@@ -1,5 +1,7 @@
 # 📓 Lesson 4 - Getting up to speed with LangChain
 
+In this lessoin, we'll get you started by providing a high-level overview of LangChain, a popular LLM framework that provides several auxilliary tools that helps creating LLM-based tools much easier. You'll also get your first hands-on experience by building simple LLM workflow using LangChain. Additional examples will be covered in the series of projects provided in the course.
+
 ## Table of Contents
 1. [What is LangChain?](#1-what-is-langchain)
 2. [Installing LangChain](#2-installing-langchain)
