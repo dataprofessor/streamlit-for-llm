@@ -1,6 +1,6 @@
 # 📓 Lesson 3 - Getting up to speed with Hugging Face Hub
 
-In this lesson, we'll be diving into the Hugging Face Hub and its Models feature. 
+In this lesson, we'll be introducing the Hugging Face Hub and focus on the Models feature. Particularly, we'll explore the use of LLM models that are hosted on the Hugging Face Hub platform for building LLM tools.
 
 ## Table of Contents
 1. [What is Hugging Face Hub?](#1-what-is-hugging-face-hub)
