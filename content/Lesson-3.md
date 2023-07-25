@@ -16,12 +16,11 @@ The Hugging Face Hub is an open-source platform that hosts over 120,000 models, 
 Hugging Face Models is available at https://huggingface.co/models and a screenshot is shown below:
 
 <p align="center">
-<img src="../img/lesson-3-hugging-face-hub-models.png" width="65%">
+  <img src="../img/lesson-3-hugging-face-hub-models.png" width="65%">
 </p>
 
 As we can see in the left side panel, models are conveniently categorized into various Tasks and in this lesson we'll focus on LLMs which can be found in _Text2Text Generation_ under the *Natural Language Processing* sub-heading.
 
-<p>
 <br clear="left" />
 <img src="../img/lesson-3-huggingface.co_google_flan-t5-base.png" width="75%" align="right">
 
@@ -41,15 +40,15 @@ We can test the model by experimenting with the _Hosted inference API_ found on 
 
 Example apps using the model as deployed on Spaces is listed and would serve as a good source of inspiration.
 
-</p>
-
 [//]: # (Hugging Face Model Page Diagram https://excalidraw.com/#json=Wk098OU44goApcrItbIlT,NZpeTWLp1EbrU96obSt9IQ)
 
 
 
 ## 3. Using a Hugging Face Model
 
-Let's proceed to using the model. Particularly, instructions for using the model is provided in two places:
+Let's proceed to using the model. 
+
+Particularly, instructions for using the model is provided in two places:
 1. **</> Use in Transformers** - A button located in the top-right hand corner, provides information on how to use the model via the `transformers` Python library.
 2. **_Usage_ section in the _Model card_** - Example scripts on using the model via the `transformers` Python library are also provided here.
 
@@ -66,6 +65,7 @@ pip install transformers
 There are several ways of running the model:
 1. Run models directly
 2. Run model via a pipeline
+3. Access model from an inference API
 
 In the first instance, models can be run directly as follows:
 
@@ -95,7 +95,9 @@ pipe = pipeline("text2text-generation", model="google/flan-t5-base")
 pipe("The square root of x is the cube root of y. What is y to the power of 2, if x = 4?")
 ```
 
-The generated output would be:
+In the third instance, models can also be accessed via an inference API. This can be accessed by going to the _Model page_ as shown in the screenshot above, then in the top-right corner, click on `Deploy` > `Inference API`.
+
+The generated output, irrespective of which methods were used, would give the following:
 ```
 x = 4 * 2 = 8 x = 16 y = 16 to the power
 ```
