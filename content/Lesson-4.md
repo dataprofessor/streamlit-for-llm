@@ -7,6 +7,7 @@ In this lesson, we'll get you started by providing a high-level overview of Lang
 2. [Installing LangChain](#2-installing-langchain)
 3. [Setting your OpenAI API key](#3-setting-your-openai-api-key)
 4. [Using LangChain](#4-using-langchain)
+5. [Summary](#5-summary)
 
 ## 1. What is LangChain?
 
