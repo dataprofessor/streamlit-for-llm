@@ -23,7 +23,7 @@ As we can see in the left side panel, models are conveniently categorized into v
 
 Let's say that we want to use Google's [FLAT-T5 base](https://huggingface.co/google/flan-t5-base) model, we can navigate to its model page whereby further information about the model is provided in its Model card.
 
-<p align="right">
+<p align="center">
    <img src="../img/lesson-3-huggingface.co_google_flan-t5-base.png" width="75%">
 </p>
 
