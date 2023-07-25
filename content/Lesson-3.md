@@ -21,6 +21,7 @@ Hugging Face Models is available at https://huggingface.co/models and a screensh
 
 As we can see in the left side panel, models are conveniently categorized into various Tasks and in this lesson we'll focus on LLMs which can be found in _Text2Text Generation_ under the *Natural Language Processing* sub-heading.
 
+<p>
 <br clear="left" />
 <img src="../img/lesson-3-huggingface.co_google_flan-t5-base.png" width="75%" align="right">
 
@@ -40,9 +41,11 @@ We can test the model by experimenting with the _Hosted inference API_ found on 
 
 Example apps using the model as deployed on Spaces is listed and would serve as a good source of inspiration.
 
+</p>
+
 [//]: # (Hugging Face Model Page Diagram https://excalidraw.com/#json=Wk098OU44goApcrItbIlT,NZpeTWLp1EbrU96obSt9IQ)
 
-<p></p>
+
 
 ## 3. Using a Hugging Face Model
 
