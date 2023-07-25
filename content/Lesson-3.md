@@ -28,6 +28,11 @@ Let's say that we want to use Google's [FLAT-T5 base](https://huggingface.co/goo
 
 We can test the model by experimenting with the _Hosted inference API_ found on the right panel. Additionally, we can see example apps using the FLAN-T5 model in _Spaces using google/flan-t5-base_.
 
+[//]: # (Hugging Face Model Page Diagram https://excalidraw.com/#json=Wk098OU44goApcrItbIlT,NZpeTWLp1EbrU96obSt9IQ)
+
 ## 3. Using a Hugging Face Model
 
+
+
+Instructions for using the model via the `transformers` library is provided in the _</> Use in Transformers_.
 
