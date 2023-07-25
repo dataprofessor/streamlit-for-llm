@@ -63,9 +63,11 @@ pip install transformers
 ### Running the model
 
 There are several ways of running the model:
-1. Run models directly
+1. Run model directly
 2. Run model via a pipeline
 3. Access model from an inference API
+
+**Run model directly**
 
 In the first instance, models can be run directly as follows:
 
@@ -86,6 +88,8 @@ outputs = model.generate(input_ids)
 print(tokenizer.decode(outputs[0]))
 ```
 
+**Run model via a pipeline**
+
 In the second instance, models can be run via a pipeline as follows:
 
 ```python
@@ -95,7 +99,26 @@ pipe = pipeline("text2text-generation", model="google/flan-t5-base")
 pipe("The square root of x is the cube root of y. What is y to the power of 2, if x = 4?")
 ```
 
-In the third instance, models can also be accessed via an inference API. This can be accessed by going to the _Model page_ as shown in the screenshot above, then in the top-right corner, click on `Deploy` > `Inference API`.
+**Access model from an inference API**
+
+In the third instance, models can also be accessed via an inference API. This can be accessed by going to the _Model page_ as shown in the screenshot above, then in the top-right corner, click on `Deploy` > `Inference API`. 
+
+This brings up a pop-up window displaying the following code snippet for using the model via an inference API:
+
+```
+import requests
+
+API_URL = "https://api-inference.huggingface.co/models/google/flan-t5-base"
+headers = {"Authorization": "Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}
+
+def query(payload):
+	response = requests.post(API_URL, headers=headers, json=payload)
+	return response.json()
+	
+output = query({
+	"inputs": "The answer to the universe is",
+})
+```
 
 The generated output, irrespective of which methods were used, would give the following:
 ```
