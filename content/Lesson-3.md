@@ -6,6 +6,7 @@ In this lesson, we'll be introducing the Hugging Face Hub and focus on the Model
 1. [What is Hugging Face Hub?](#1-what-is-hugging-face-hub)
 2. [Using Hugging Face Hub](#2-using-hugging-face-hub)
 3. [Using a Hugging Face Model](#3-using-a-hugging-face-model)
+4. [Summary](#4-summary)
 
 ## 1. What is Hugging Face Hub?
 
@@ -138,3 +139,6 @@ The generated output, irrespective of which methods were used, would give the fo
 ```
 x = 4 * 2 = 8 x = 16 y = 16 to the power
 ```
+
+## 4. Summary
+
