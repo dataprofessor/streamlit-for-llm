@@ -21,8 +21,9 @@ Hugging Face Models is available at https://huggingface.co/models and a screensh
 
 As we can see in the left side panel, models are conveniently categorized into various Tasks and in this lesson we'll focus on LLMs which can be found in _Text2Text Generation_ under the *Natural Language Processing* sub-heading.
 
-<br clear="left" />
-<img src="../img/lesson-3-huggingface.co_google_flan-t5-base.png" width="75%" align="right">
+<p align="center">
+  <img src="../img/lesson-3-huggingface.co_google_flan-t5-base.png" width="75%">
+</p>
 
 **Model card**
 
