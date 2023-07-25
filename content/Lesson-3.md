@@ -42,6 +42,8 @@ Example apps using the model as deployed on Spaces is listed and would serve as 
 
 [//]: # (Hugging Face Model Page Diagram https://excalidraw.com/#json=Wk098OU44goApcrItbIlT,NZpeTWLp1EbrU96obSt9IQ)
 
+<p></p>
+
 ## 3. Using a Hugging Face Model
 
 Let's proceed to using the model. Particularly, instructions for using the model is provided in two places:
