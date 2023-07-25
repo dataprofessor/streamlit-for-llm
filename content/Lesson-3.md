@@ -15,8 +15,9 @@ The Hugging Face Hub is an open-source platform that hosts over 120,000 models, 
 
 Hugging Face Models is available at https://huggingface.co/models and a screenshot is shown below:
 
-<br clear="left" />
-<img src="../img/lesson-3-hugging-face-hub-models.png" width="65%" align="right">
+<p align="center">
+  <img src="../img/lesson-3-hugging-face-hub-models.png" width="65%">
+</p>
 
 As we can see in the left side panel, models are conveniently categorized into various Tasks and in this lesson we'll focus on LLMs which can be found in _Text2Text Generation_ under the *Natural Language Processing* sub-heading.
 
