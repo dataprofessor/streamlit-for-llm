@@ -30,15 +30,10 @@
 
 <table>
   <tr>
-    <td>
-      <a href="https://openai.com">
-        OpenAI
-      </a>
-    </td>
-    <td><img src="https://pandas.pydata.org/static/img/pandas.svg" height="50"></td>
-    <td><img src="https://matplotlib.org/_static/logo_light.svg" height="37"></td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" height="40"></td>
-</tr>
+    <td><a href="https://openai.com/">OpenAI</a></td>
+    <td><a href="https://huggingface.co/">Hugging Face</a><</td>
+    <td><a href="https://www.langchain.com/">LangChain</a><</td>
+  </tr>
 </table>
 
 ## Citing us
