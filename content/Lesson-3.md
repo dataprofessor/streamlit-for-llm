@@ -35,4 +35,4 @@ We can test the model by experimenting with the _Hosted inference API_ found on 
 
 Let's proceed to using the model. Particularly, instructions for using the model is provided in two places:
 1. **</> Use in Transformers** - A button located in the top-right hand corner, provides information on how to use the model via the `transformers` Python library.
-2. **Usage** section in the **Model card** - Example scripts on using the model via the `transformers` Python library are also provided here.
+2. **_Usage_ section in the _Model card_** - Example scripts on using the model via the `transformers` Python library are also provided here.
