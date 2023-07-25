@@ -22,7 +22,7 @@ Hugging Face Models is available at https://huggingface.co/models and a screensh
 As we can see in the left side panel, models are conveniently categorized into various Tasks and in this lesson we'll focus on LLMs which can be found in _Text2Text Generation_ under the *Natural Language Processing* sub-heading.
 
 
-Let's say that we want to use Google's [FLAT-T5 base](https://huggingface.co/google/flan-t5-base) model, we can navigate to its model page
+Let's say that we want to use Google's [FLAT-T5 base](https://huggingface.co/google/flan-t5-base) model, we can navigate to its model page (see screenshot below).
 
 **Model card**
 
