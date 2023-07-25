@@ -15,16 +15,16 @@ The Hugging Face Hub is an open-source platform that hosts over 120,000 models, 
 
 Hugging Face Models is available at https://huggingface.co/models and a screenshot is shown below:
 
-<BR CLEAR="left" />
-<img src="../img/lesson-3-hugging-face-hub-models.png" width="65%" ALIGN="right">
+<p align="center">
+<img src="../img/lesson-3-hugging-face-hub-models.png" width="65%">
+</p>
 
 As we can see in the left side panel, models are conveniently categorized into various Tasks and in this lesson we'll focus on LLMs which can be found in _Text2Text Generation_ under the *Natural Language Processing* sub-heading.
 
 Let's say that we want to use Google's [FLAT-T5 base](https://huggingface.co/google/flan-t5-base) model, we can navigate to its model page whereby further information about the model is provided in its Model card.
 
-<p align="center">
-   <img src="../img/lesson-3-huggingface.co_google_flan-t5-base.png" width="75%">
-</p>
+<br clear="left" />
+<img src="../img/lesson-3-huggingface.co_google_flan-t5-base.png" width="75%" align="right">
 
 We can test the model by experimenting with the _Hosted inference API_ found on the right panel. Additionally, we can see example apps using the FLAN-T5 model in _Spaces using google/flan-t5-base_.
 
