@@ -36,3 +36,47 @@ We can test the model by experimenting with the _Hosted inference API_ found on 
 Let's proceed to using the model. Particularly, instructions for using the model is provided in two places:
 1. **</> Use in Transformers** - A button located in the top-right hand corner, provides information on how to use the model via the `transformers` Python library.
 2. **_Usage_ section in the _Model card_** - Example scripts on using the model via the `transformers` Python library are also provided here.
+
+### Installing the transformers library
+
+The `transformers` library can be installed in Python as follows:
+
+```
+pip install transformers
+```
+
+### Running the model
+
+There are several ways of running the model:
+1. Run models directly
+2. Run model via a pipeline
+
+In the first instance, models can be run directly as follows:
+
+```python
+# Load libraries
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+
+# Instantiate tokenizer and model
+tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
+model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-base")
+
+# Define input text and apply tokenizer
+input_text = "The square root of x is the cube root of y. What is y to the power of 2, if x = 4?"
+input_ids = tokenizer(input_text, return_tensors="pt").input_ids
+
+# Run the model
+outputs = model.generate(input_ids)
+print(tokenizer.decode(outputs[0]))
+```
+
+In the second instance, models can be run via a pipeline as follows:
+
+```python
+from transformers import pipeline
+
+pipe = pipeline("text2text-generation", model="google/flan-t5-base")
+pipe("The square root of x is the cube root of y. What is y to the power of 2, if x = 4?")
+```
+
+
