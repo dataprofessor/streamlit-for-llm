@@ -22,3 +22,6 @@ As we can see in the left side panel, models are conveniently categorized into v
 
 ## 3. Using a Hugging Face Model
 
+<p align="center">
+   <img src="../img/lesson-3-huggingface.co_google_flan-t5-base.png" width="50%">
+</p>
