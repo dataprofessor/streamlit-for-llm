@@ -142,3 +142,4 @@ x = 4 * 2 = 8 x = 16 y = 16 to the power
 
 ## 4. Summary
 
+In this lesson, we explored the Hugging Face Hub, a large repository of machine learning models, datasets, and apps. We particularly focused on the Models section and how to use a language model on the platform using the `transformers` library or via an inference API.
