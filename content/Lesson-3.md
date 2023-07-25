@@ -26,7 +26,7 @@ Let's say that we want to use Google's [FLAT-T5 base](https://huggingface.co/goo
    <img src="../img/lesson-3-huggingface.co_google_flan-t5-base.png" width="65%">
 </p>
 
-We can test the model by experimenting with the Hosted inference API found on the right panel.
+We can test the model by experimenting with the _Hosted inference API_ found on the right panel. Additionally, we can see example apps using the FLAN-T5 model in _Spaces using google/flan-t5-base_
 
 ## 3. Using a Hugging Face Model
 
