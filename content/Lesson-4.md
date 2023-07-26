@@ -5,9 +5,10 @@ In this lesson,
 ## Table of Contents
 1. [What is Replicate?](#1-what-is-replicate)
 2. [Installing Replicate](#2-installing-replicate)
-3. [Setting the Replicate API token](#3-setting-the-replicate-api-token)
-4. [Run an LLM model](#4-run-an-llm-model)
-5. [Summary](#5-summary)
+3. [Getting your own Replicate API token](#3-getting-your-own-replicate-api-token)
+4. [Setting the Replicate API token](#4-setting-the-replicate-api-token)
+5. [Run an LLM model](#5-run-an-llm-model)
+6. [Summary](#6-summary)
 
 ## 1. What is Replicate?
 
@@ -39,16 +40,15 @@ Let's install the `replicate` library via `pip` as follows:
 pip install replicate
 ```
 
-Now, we're good to go
+Now, we're good to go!
 
-## 3. Setting the Replicate API token
-
+## 3. Getting your own Replicate API token
 
 <p align="center">
-   <img src="../img/lesson-4-replicate-api-token.gif" width="65%">
+   <img src="../img/lesson-4-replicate-api-token.gif" width="70%">
 </p>
 
-
+## 4. Setting the Replicate API token
 
 ```Python
 import os
@@ -56,9 +56,21 @@ import os
 os.environ["REPLICATE_API_TOKEN"] = "r8_xxxxxxxxxxxxxxxxxxx"
 ```
 
-## 4. Running an LLM model
+## 5. Running an LLM model
 
+```Python
+import replicate
 
-## 5. Summary
+# Prompts
+pre_prompt = "You are a helpful assistant. You do not respond as 'User' or pretend to be 'User'. You only respond once as 'Assistant'."
+prompt_input = "What is Streamlit?"
+
+# Generate LLM response
+output = replicate.run('a16z-infra/llama13b-v2-chat:df7690f1994d94e96ad9d568eac121aecf50684a0b0963b25a41cc40061269e5', # LLM model
+                        input={"prompt": f"{pre_prompt} {prompt_input} Assistant: ", # Prompts
+                        "temperature":0.1, "top_p":0.9, "max_length":128, "repetition_penalty":1})  # Model parameters
+```
+
+## 6. Summary
 
 
