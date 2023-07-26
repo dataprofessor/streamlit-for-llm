@@ -1,4 +1,4 @@
-# 📓 Lesson 4 - Orchestrating an LLM workflow with LangChain
+# 📓 Lesson 5 - Orchestrating an LLM workflow with LangChain
 
 In this lesson, we'll get you started by providing a high-level overview of LangChain, a popular LLM framework that provides several auxilliary tools that helps creating LLM-based tools much easier. You'll also get your first hands-on experience by building simple LLM workflow using LangChain. Additional examples will be covered in the series of projects provided in the course.
 
@@ -14,7 +14,7 @@ In this lesson, we'll get you started by providing a high-level overview of Lang
 [LangChain](https://langchain.com/?ref=blog.streamlit.io) is a framework that uses LLMs to build applications for various use cases. Created by Harrison Chase, it was first released as an open-source project in October 2022. To date, it has accumulated 41,900 stars on [GitHub](https://github.com/hwchase17/langchain?ref=blog.streamlit.io) and has over 800 contributors.
 
 <p align="center">
-   <img src="../img/lesson-4-langchain-star-history.png" width="65%">
+   <img src="../img/lesson-5-langchain-star-history.png" width="65%">
 </p>
 
 At a high level, LangChain connects LLM models (such as OpenAI and HuggingFace Hub) to external sources like Google, Wikipedia, Notion, and Wolfram. It provides abstractions (chains and agents) and tools (prompt templates, memory, document loaders, output parsers) to interface between text input and output. LLM models and components are linked into a pipeline "chain," making it easy for developers to rapidly prototype robust applications. Simply put, LangChain orchestrates the LLM pipeline.
