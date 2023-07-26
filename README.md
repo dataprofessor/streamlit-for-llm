@@ -8,7 +8,7 @@
 ## Table of contents
 - [**Lesson 1** - Getting up to speed with Streamlit](./content/Lesson-1.md)
 - [**Lesson 2** - Using LLM models from OpenAI](./content/Lesson-2.md)
-- [**Lesson 3** - Using LLM models from Hugging Face Hub](./content/Lesson-3.md)
+- [**Lesson 3** - Using open source LLM models from Hugging Face Hub](./content/Lesson-3.md)
 - [**Lesson 4** - Orchestrating an LLM workflow with LangChain](./content/Lesson-4.md)
 - [**Project 1** - Build a ChatGPT clone](./content/Project-1.md)
 - [**Project 2** - Build a Blog Outline Generator](./content/Project-2.md)
