@@ -12,5 +12,5 @@ In this lesson,
 ## 1. What is Replicate?
 
 <p align="center">
-   <img src="../img/" width="65%">
+   <img src="../img/lesson-4-replicate-explore-language-models.png" width="65%">
 </p>
