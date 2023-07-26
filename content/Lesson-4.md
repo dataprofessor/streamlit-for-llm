@@ -29,3 +29,11 @@ In addition, to code snippets, another notable feature on the model page is the 
    <img src="../img/lesson-4-replicate-demo-page.png" width="65%">
 </p>
 
+
+
+
+<p align="center">
+   <img src="../img/lesson-4-replicate-api-token.gif" width="65%">
+</p>
+
+
