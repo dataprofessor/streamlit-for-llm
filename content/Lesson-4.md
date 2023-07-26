@@ -1,12 +1,12 @@
 # 📓 Lesson 4 - Using hosted open source LLM models from Replicate
 
-In this lesson, we're exploring the Replicate platform that may come in handy when we want to self-host our own LLM model or simply to use a hosted LLM model via a simple API call. The process works in a similar fashion to OpenAI and Hugging Face platforms.
+In this lesson, 
 
 ## Table of Contents
 1. [What is Replicate?](#1-what-is-replicate)
 2. [Installing Replicate](#2-installing-replicate)
-3. [Setting your Replicate API token](#3-setting-your-replicate-api-token)
-4. [Using Replicate](#4-using-replicate)
+3. [Setting the Replicate API token](#3-setting-the-replicate-api-token)
+4. [Run an LLM model](#4-run-an-llm-model)
 5. [Summary](#5-summary)
 
 ## 1. What is Replicate?
@@ -29,11 +29,36 @@ In addition, to code snippets, another notable feature on the model page is the 
    <img src="../img/lesson-4-replicate-demo-page.png" width="65%">
 </p>
 
+## 2. Installing Replicate
 
+Of the above mentioned methods of using Replicate, we're going to use it via a Python library. 
+
+Let's install the `replicate` library via `pip` as follows:
+
+```Python
+pip install replicate
+```
+
+Now, we're good to go
+
+## 3. Setting the Replicate API token
 
 
 <p align="center">
    <img src="../img/lesson-4-replicate-api-token.gif" width="65%">
 </p>
+
+
+
+```Python
+import os
+
+os.environ["REPLICATE_API_TOKEN"] = "r8_xxxxxxxxxxxxxxxxxxx"
+```
+
+## 4. Running an LLM model
+
+
+## 5. Summary
 
 
