@@ -11,11 +11,7 @@
 - [**Lesson 3** - Using open source LLM models from Hugging Face Hub](./content/Lesson-3.md)
 - [**Lesson 4** - Using hosted open source LLM models from Replicate](./content/Lesson-4.md)
 - [**Lesson 5** - Orchestrating an LLM workflow with LangChain](./content/Lesson-5.md)
-- [**Project 1** - Build a ChatGPT clone](./content/Project-1.md)
-- [**Project 2** - Build a Blog Outline Generator](./content/Project-2.md)
-- [**Project 3** - Build a YouTube Summarizer](./content/Project-3.md)
-- [**Project 4** - Build an Ask your Document app](./content/Project-4.md)
-- [**Project 5** - Build an Ask your Data app](./content/Project-5.md)
+- [**Projects** - Build LLM-powered apps](./content/Project-1.md)
 
 ## Resources
 - [Build powerful generative AI apps](https://streamlit.io/generative-ai) - Streamlit resources on building LLM-powered apps.
