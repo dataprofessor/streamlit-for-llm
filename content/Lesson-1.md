@@ -139,8 +139,9 @@ streamlit run streamlit_app.py
 where `streamlit_app.py` is the Streamlit app that you've just created.
 
 
-[//]: ## 7. Widgets for displaying information to the app
+[//]: ## 7. Widgets for displaying information in the app
 
+[//]: ## 8. Widgets for accepting user information in the app
 
 
 ## Summary
