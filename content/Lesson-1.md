@@ -8,6 +8,7 @@ In this lesson, we'll get you started with Streamlit from going over the overarc
 3. [Installing Streamlit](#3-installing-streamlit)
 4. [Setting up your Streamlit workspace](#4-setting-up-your-streamlit-workspace)
 5. [Creating your first Streamlit app](#5-creating-your-first-streamlit-app)
+6. [Running the Streamlit app](#6-running-the-streamlit-app)
 
 ## 1. What is Streamlit?
 
