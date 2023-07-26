@@ -138,6 +138,11 @@ streamlit run streamlit_app.py
 
 where `streamlit_app.py` is the Streamlit app that you've just created.
 
+
+[//]: ## 7. Widgets for displaying information to the app
+
+
+
 ## Summary
 
 In this lesson, we're introduced to Streamlit along with how to setup a computing environment as well as creating our first Streamlit app.
