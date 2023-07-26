@@ -17,10 +17,15 @@ Replicate is an online platform that lets user run machine learning models in a 
    <img src="../img/lesson-4-replicate-explore-language-models.png" width="65%">
 </p>
 
-Such models are accessible via a simple API call and their model page provides code snippets (available in Node.js, Python and HTTP) to get users started in provisioning their own projects.
+Such models are accessible via a simple API call and Replicate's model page provide code snippets (available in Node.js, Python and HTTP) to get users started in provisioning their own projects.
 
 <p align="center">
    <img src="../img/lesson-4-replicate-model-page.png" width="65%">
 </p>
 
+In addition, to code snippets, another notable feature on the model page is the Demo that allows the user to play with the LLM model. Go ahead, try adjusting the prompt and model parameters and see how it works.
+
+<p align="center">
+   <img src="../img/lesson-4-replicate-demo-page.png" width="65%">
+</p>
 
