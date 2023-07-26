@@ -1,6 +1,6 @@
 # 📓 Lesson 4 - Using hosted open source LLM models from Replicate
 
-In this lesson, 
+In this lesson, we're exploring the Replicate platform that may come in handy when we want to self-host our own LLM model or simply to use a hosted LLM model via a simple API call. The process works in a similar fashion to OpenAI and Hugging Face platforms.
 
 ## Table of Contents
 1. [What is Replicate?](#1-what-is-replicate)
