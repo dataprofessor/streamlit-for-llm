@@ -11,6 +11,16 @@ In this lesson,
 
 ## 1. What is Replicate?
 
+Replicate is an online platform that lets user run machine learning models in a few lines of code without the need to understand how machine learning works. This is particularly helpful for integrating machine learning functionality in any websites with no overhead on the model training and maintenance aspects. 
+
 <p align="center">
    <img src="../img/lesson-4-replicate-explore-language-models.png" width="65%">
 </p>
+
+Such models are accessed via a simple API call and their model page provides code snippets to get users started in provisioning their own projects.
+
+<p align="center">
+   <img src="../img/lesson-4-replicate-model-page.png" width="65%">
+</p>
+
+
