@@ -30,6 +30,7 @@
     <td><a href="https://streamlit.io/">Streamlit</a></td>
     <td><a href="https://openai.com/">OpenAI</a></td>
     <td><a href="https://huggingface.co/">Hugging Face</a></td>
+    <td><a href="https://replicate.com/">Replicate</a></td>
     <td><a href="https://www.langchain.com/">LangChain</a></td>
   </tr>
 </table>
