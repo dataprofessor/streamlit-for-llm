@@ -44,6 +44,7 @@ Now, we're good to go!
 
 ## 3. Getting your own Replicate API token
 
+Watch the following screencast to get your own Replicate API token.
 <p align="center">
    <img src="../img/lesson-4-replicate-api-token.gif" width="70%">
 </p>
