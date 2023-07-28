@@ -13,6 +13,7 @@
 - [**Lesson 5** - Orchestrating an LLM workflow with LangChain](./content/Lesson-5.md)
 - [**Project 1** - Build a ChatGPT clone](./content/Project-1.md)
 - [**Project 2** - Build a Llama 2 chatbot](./content/Project-2.md)
+- [**Project 3** - Build a HugChat chatbot](./content/Project-3.md)
 
 ## Resources
 - [Build powerful generative AI apps](https://streamlit.io/generative-ai) - Streamlit resources on building LLM-powered apps.
