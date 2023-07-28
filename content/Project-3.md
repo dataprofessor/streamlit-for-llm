@@ -27,13 +27,13 @@ That's it and in a few moments an LLM generated response should be returned as t
 We'll be using 2 prerequisite libraries as follows:
 ```
 streamlit
-openai
+hugchat==0.0.8
 ```
 
 So if you're building locally you can install these 2 libraries via `pip` as follows:
 
 ```
-pip install streamlit openai
+pip install streamlit hugchat==0.0.8
 ```
 
 If deploying to Streamlit Community Cloud, you can go ahead and create a `requirements.txt` file containing the 2 lines mentioned above.
