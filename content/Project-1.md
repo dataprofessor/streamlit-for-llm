@@ -4,6 +4,10 @@
 
 In this project, we're going to build a ChatGPT clone in Python using Streamlit for the frontend and the GPT 3.5 LLM model from OpenAI in the backend.
 
+## Try the app
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://openai-chatbot.streamlit.app/)
+
 ## Installing prerequisite libraries
 
 We'll be using 2 prerequisite libraries as follows:
@@ -19,6 +23,10 @@ pip install streamlit openai
 ```
 
 If deploying to Streamlit Community Cloud, you can go ahead and create a `requirements.txt` file containing the 2 lines mentioned above.
+
+## Getting your own OpenAI API key
+
+Please refer to the [_Getting your own OpenAI API key_](https://github.com/dataprofessor/streamlit-for-generative-ai/blob/master/content/Lesson-2.md#4-getting-your-own-openai-apikey) section of Lesson 2.
 
 ## Building the chatbot app
 
@@ -63,4 +71,5 @@ if prompt := st.chat_input("What is up?"):
         message_placeholder.markdown(full_response)
     st.session_state.messages.append({"role": "assistant", "content": full_response})
 ```
+
 
