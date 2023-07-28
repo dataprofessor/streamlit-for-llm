@@ -4,6 +4,10 @@
 
 In this project, we're going to build a ChatGPT clone in Python using Streamlit for the frontend and the GPT 3.5 LLM model from OpenAI in the backend.
 
+<p align="center">
+   <img src="../img/project-1-demo-app.png" width="65%">
+</p>
+
 ## Try the app
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://openai-chatbot.streamlit.app/)
