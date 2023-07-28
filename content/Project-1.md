@@ -8,6 +8,10 @@ In this project, we're going to build a ChatGPT clone in Python using Streamlit 
    <img src="../img/project-1-demo-app.png" width="65%">
 </p>
 
+## Try the app
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://openai-chatbot.streamlit.app/)
+
 ## Instructions on using the app
 
 Here are instructions for using the app:
@@ -17,9 +21,6 @@ _Step 3._ Enter a prompt message in the chat input box on the main panel (found 
 
 That's it and in a few moments an LLM generated response should be returned as the displayed output.
 
-## Try the app
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://openai-chatbot.streamlit.app/)
 
 ## Installing prerequisite libraries
 
