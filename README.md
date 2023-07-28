@@ -12,6 +12,7 @@
 - [**Lesson 4** - Using hosted open source LLM models from Replicate](./content/Lesson-4.md)
 - [**Lesson 5** - Orchestrating an LLM workflow with LangChain](./content/Lesson-5.md)
 - [**Project 1** - Build a ChatGPT clone](./content/Project-1.md)
+- [**Project 2** - Build a Llama 2 chatbot](./content/Project-2.md)
 
 ## Resources
 - [Build powerful generative AI apps](https://streamlit.io/generative-ai) - Streamlit resources on building LLM-powered apps.
