@@ -15,9 +15,9 @@ In this project, we're going to build a chatbot in Python using Streamlit for th
 ## Instructions on using the app
 
 Here are instructions for using the app:
-- _Step 1._ Go to the Llama 2 chatbot at https://llama2.streamlit.app/ or your own deployed instance
-- _Step 2._ Enter your own Replicate API token in the sidebar.
-- _Step 3._ Enter a prompt message in the chat input box on the main panel (found at the bottom portion of the page) and hit on `Enter`.
+- **Step 1.** Go to the Llama 2 chatbot at https://llama2.streamlit.app/ or your own deployed instance
+- **Step 2.** Enter your own Replicate API token in the sidebar.
+- **Step 3.** Enter a prompt message in the chat input box on the main panel (found at the bottom portion of the page) and hit on `Enter`.
 
 That's it and in a few moments an LLM generated response should be returned as the displayed output.
 
