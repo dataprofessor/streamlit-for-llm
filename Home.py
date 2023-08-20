@@ -1,10 +1,14 @@
 import streamlit as st
+from PIL import Image
 from utilities import load_css
 
 st.set_page_config(
     page_title="Hello",
     page_icon="🏠",
 )
+
+img = Image.open('app/img/streamlit-generative-ai-course-logo.png')
+st.image(img)
 
 st.markdown('''
 <p align="center">
