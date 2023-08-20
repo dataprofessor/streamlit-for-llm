@@ -17,7 +17,7 @@ st.write('The Streamlit for Generative AI course will show you how to use Stream
 # Table of Contents
 st.header('Table of Contents')
 st.markdown('''
-<ul style="list-style-type:square; margin: 0.1;">
+<ul style="list-style-type:square; margin: 0.02;">
    <li>
       <a href="Apples" target="_self">
          Lesson 1 - Getting up to speed with Streamlit
