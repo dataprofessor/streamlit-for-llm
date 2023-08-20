@@ -19,13 +19,13 @@ st.header('Table of Contents')
 st.markdown('''
 <ul style="list-style-type:square; margin: 5px;">
    <li>
-      <a href="Apples" target="_self">
+      <a href="Apples" target="_self" style="text-decoration: none;">
          <b>Lesson 1</b> - Getting up to speed with Streamlit
       </a>
    </li>
 
    <li>
-      <a href="Oranges" target="_self">
+      <a href="Oranges" target="_self" style="text-decoration: none;">
          <b>Lesson 2</b> - Using LLM models from OpenAI
       </a>
    </li>
