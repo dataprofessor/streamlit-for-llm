@@ -1,0 +1,19 @@
+[data-testid="stSidebarNav"] {
+                background-image: url("https://github.com/dataprofessor/st-multipage-with-logo/raw/master/logo.png");
+                background-size: 80%;
+                background-repeat: no-repeat;
+                padding-top: 80px;
+                margin-top: 20px;
+                background-position: center top;
+                /* background-position: 20px 20px; */
+            }
+[data-testid="stSidebarNav"]::before {
+                content: "Menu";
+                padding-bottom: 100px;
+                margin-left: 20px;
+                margin-top: 20px;
+                font-size: 20px;
+                font-weight: bold;
+                position: relative;
+                top: 90px;
+            }
