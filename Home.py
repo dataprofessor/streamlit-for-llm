@@ -12,7 +12,7 @@ st.image(img)
 
 st.markdown('''
 <p align="center">
-  <img src="app/img/streamlit-generative-ai-course-logo.png" width="60%">
+  <img src="./app/img/streamlit-generative-ai-course-logo.png" width="60%">
 </p>
 ''', unsafe_allow_html=True)
 
