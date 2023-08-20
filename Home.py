@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="🏠",
 )
 
-img = Image.open('app/img/streamlit-generative-ai-course-logo.png')
+img = Image.open('img/streamlit-generative-ai-course-logo.png')
 st.image(img)
 
 st.markdown('''
