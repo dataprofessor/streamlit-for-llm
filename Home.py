@@ -22,7 +22,7 @@ st.markdown('''
 </a>
 
 
-''')
+''', unsafe_allow_html=True)
 
 #- [**Lesson 1** - Getting up to speed with Streamlit](Apples)
 #- [**Lesson 2** - Using LLM models from OpenAI](./content/Lesson-2.md)
