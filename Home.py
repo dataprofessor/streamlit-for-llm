@@ -8,7 +8,7 @@ st.set_page_config(
 
 st.markdown('''
 <p align="center">
-  <img src="./img/streamlit-generative-ai-course-logo.png" width="60%">
+  <img src="app/img/streamlit-generative-ai-course-logo.png" width="60%">
 </p>
 ''', unsafe_allow_html=True)
 
