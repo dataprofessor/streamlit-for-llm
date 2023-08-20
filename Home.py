@@ -20,13 +20,13 @@ st.markdown('''
 <ul style="list-style-type:square; margin: 5px;">
    <li>
       <a href="Apples" target="_self">
-         Lesson 1 - Getting up to speed with Streamlit
+         <b>Lesson 1 - Getting up to speed with Streamlit<b>
       </a>
    </li>
 
    <li>
       <a href="Oranges" target="_self">
-         Lesson 2 - Using LLM models from OpenAI
+         <b>Lesson 2 - Using LLM models from OpenAI</b>
       </a>
    </li>
 </ul>
