@@ -24,12 +24,18 @@ st.markdown('''
       </a>
    </li>
 </ul>
-
+<ul style="list-style-type:square;">
+   <li>
+      <a href="Oranges" target="_self">
+         Lesson 2 - Using LLM models from OpenAI
+      </a>
+   </li>
+</ul>
 
 ''', unsafe_allow_html=True)
 
 #- [**Lesson 1** - Getting up to speed with Streamlit](Apples)
-#- [**Lesson 2** - Using LLM models from OpenAI](./content/Lesson-2.md)
+#- [**Lesson 2** - Using LLM models from OpenAI](Oranges)
 #- [**Lesson 3** - Using open source LLM models from Hugging Face Hub](./content/Lesson-3.md)
 #- [**Lesson 4** - Using hosted open source LLM models from Replicate](./content/Lesson-4.md)
 #- [**Lesson 5** - Orchestrating an LLM workflow with LangChain](./content/Lesson-5.md)
