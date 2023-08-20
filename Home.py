@@ -23,8 +23,7 @@ st.markdown('''
          Lesson 1 - Getting up to speed with Streamlit
       </a>
    </li>
-</ul>
-<ul style="list-style-type:square;">
+
    <li>
       <a href="Oranges" target="_self">
          Lesson 2 - Using LLM models from OpenAI
