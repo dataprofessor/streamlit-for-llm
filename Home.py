@@ -17,9 +17,13 @@ st.write('The Streamlit for Generative AI course will show you how to use Stream
 # Table of Contents
 st.header('Table of Contents')
 st.markdown('''
-<a href="Apples" target="_self">
-    Lesson 1 - Getting up to speed with Streamlit
-</a>
+<ul>
+   <li>
+      <a href="Apples" target="_self">
+         Lesson 1 - Getting up to speed with Streamlit
+      </a>
+   </li>
+</ul>
 
 
 ''', unsafe_allow_html=True)
