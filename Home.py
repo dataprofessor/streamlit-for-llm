@@ -3,7 +3,7 @@ from PIL import Image
 from utilities import load_css
 
 st.set_page_config(
-    page_title="Hello",
+    page_title="Welcome to the Streamlit for Generative AI course",
     page_icon="🏠",
 )
 
