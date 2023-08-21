@@ -35,6 +35,36 @@ st.markdown('''
          <b>Lesson 3</b> - Using open source LLM models from Hugging Face Hub
       </a>
    </li>
+
+   <li>
+      <a href="Using_hosted_open_source_LLM_models_from_Replicate" target="_self" style="text-decoration: none;">
+         <b>Lesson 4</b> - Using hosted open source LLM models from Replicate
+      </a>
+   </li>
+
+   <li>
+      <a href="Orchestrating_an_LLM_workflow_with_LangChain" target="_self" style="text-decoration: none;">
+         <b>Lesson 5</b> - Orchestrating an LLM workflow with LangChain
+      </a>
+   </li>
+
+   <li>
+      <a href="Build_a_ChatGPT_clone" target="_self" style="text-decoration: none;">
+         <b>Project 1</b> - Build a ChatGPT clone
+      </a>
+   </li>
+
+   <li>
+      <a href="Build_a_Llama2_chatbot" target="_self" style="text-decoration: none;">
+         <b>Project 2</b> - Build a Llama 2 chatbot
+      </a>
+   </li>
+
+   <li>
+      <a href="Build_a_HugChat_chatbot" target="_self" style="text-decoration: none;">
+         <b>Project 3</b> - Build a HugChat chatbot
+      </a>
+   </li>
 </ul>
 
 ''', unsafe_allow_html=True)
