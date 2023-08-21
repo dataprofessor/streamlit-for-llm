@@ -7,6 +7,8 @@ st.set_page_config(
     page_icon="🏠",
 )
 
+load_css()
+
 img = Image.open('img/streamlit-generative-ai-course-logo.png')
 st.image(img)
 
@@ -68,14 +70,3 @@ st.markdown('''
 </ul>
 
 ''', unsafe_allow_html=True)
-
-#- [**Lesson 1** - Getting up to speed with Streamlit](Getting_up_to_speed_with_Streamlit)
-#- [**Lesson 2** - Using LLM models from OpenAI](Using_LLM_models_from_OpenAI)
-#- [**Lesson 3** - Using open source LLM models from Hugging Face Hub](./content/Lesson-3.md)
-#- [**Lesson 4** - Using hosted open source LLM models from Replicate](./content/Lesson-4.md)
-#- [**Lesson 5** - Orchestrating an LLM workflow with LangChain](./content/Lesson-5.md)
-#- [**Project 1** - Build a ChatGPT clone](./content/Project-1.md)
-#- [**Project 2** - Build a Llama 2 chatbot](./content/Project-2.md)
-#- [**Project 3** - Build a HugChat chatbot](./content/Project-3.md)
-
-load_css()
