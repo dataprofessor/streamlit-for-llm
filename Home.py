@@ -19,31 +19,31 @@ st.header('Table of Contents')
 st.markdown('''
 <ul style="list-style-type:square; margin: 5px;">
    <li>
-      <a href="Getting_up_to_speed_with_Streamlit" target="_self" style="text-decoration: none;">
+      <a href="Lesson_1_Streamlit" target="_self" style="text-decoration: none;">
          <b>Lesson 1</b> - Getting up to speed with Streamlit
       </a>
    </li>
 
    <li>
-      <a href="Using_LLM_models_from_OpenAI" target="_self" style="text-decoration: none;">
+      <a href="Lesson_2_OpenAI" target="_self" style="text-decoration: none;">
          <b>Lesson 2</b> - Using LLM models from OpenAI
       </a>
    </li>
 
    <li>
-      <a href="Using_open_source_LLM_models_from_Hugging_Face_Hub" target="_self" style="text-decoration: none;">
+      <a href="Lesson_3_Hugging_Face_Hub" target="_self" style="text-decoration: none;">
          <b>Lesson 3</b> - Using open source LLM models from Hugging Face Hub
       </a>
    </li>
 
    <li>
-      <a href="Using_hosted_open_source_LLM_models_from_Replicate" target="_self" style="text-decoration: none;">
+      <a href="Lesson_4_Replicate" target="_self" style="text-decoration: none;">
          <b>Lesson 4</b> - Using hosted open source LLM models from Replicate
       </a>
    </li>
 
    <li>
-      <a href="Orchestrating_an_LLM_workflow_with_LangChain" target="_self" style="text-decoration: none;">
+      <a href="Lesson_5_LangChain" target="_self" style="text-decoration: none;">
          <b>Lesson 5</b> - Orchestrating an LLM workflow with LangChain
       </a>
    </li>
