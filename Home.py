@@ -49,19 +49,19 @@ st.markdown('''
    </li>
 
    <li>
-      <a href="Build_a_ChatGPT_clone" target="_self" style="text-decoration: none;">
+      <a href="Project_1_ChatGPT_clone" target="_self" style="text-decoration: none;">
          <b>Project 1</b> - Build a ChatGPT clone
       </a>
    </li>
 
    <li>
-      <a href="Build_a_Llama2_chatbot" target="_self" style="text-decoration: none;">
+      <a href="Project_2_Llama_2_chatbot" target="_self" style="text-decoration: none;">
          <b>Project 2</b> - Build a Llama 2 chatbot
       </a>
    </li>
 
    <li>
-      <a href="Build_a_HugChat_chatbot" target="_self" style="text-decoration: none;">
+      <a href="Project_3_HugChat_chatbot" target="_self" style="text-decoration: none;">
          <b>Project 3</b> - Build a HugChat chatbot
       </a>
    </li>
