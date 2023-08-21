@@ -1,9 +1,9 @@
 import streamlit as st
 from utilities import load_css
 
-st.set_page_config(page_title="Getting up to speed with Streamlit", page_icon="1️⃣")
+st.set_page_config(page_title="Lesson 1 - Getting up to speed with Streamlit", page_icon="1️⃣")
 
-st.header("1️⃣ Getting up to speed with Streamlit")
+st.header("1️⃣ Lesson 1 - Getting up to speed with Streamlit")
 
 st.markdown('''
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet lacus nulla, vitae faucibus erat cursus ut. Nullam quam lorem, semper eu nulla sit amet, pharetra viverra mi. Donec suscipit ligula metus, nec venenatis orci pellentesque et. Quisque ac sem eros. Duis non tellus vel est dictum interdum. Nam pulvinar mattis rhoncus. In sit amet ante ut odio scelerisque ullamcorper. Aliquam hendrerit facilisis purus eu mollis. Maecenas iaculis eget turpis nec mollis.
