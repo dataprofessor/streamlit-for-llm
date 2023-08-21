@@ -29,6 +29,12 @@ st.markdown('''
          <b>Lesson 2</b> - Using LLM models from OpenAI
       </a>
    </li>
+
+   <li>
+      <a href="Using_open_source_LLM_models_from_Hugging_Face_Hub" target="_self" style="text-decoration: none;">
+         <b>Lesson 3</b> - Using open source LLM models from Hugging Face Hub
+      </a>
+   </li>
 </ul>
 
 ''', unsafe_allow_html=True)
