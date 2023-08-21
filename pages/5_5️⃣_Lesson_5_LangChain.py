@@ -13,7 +13,4 @@ Fusce ultrices tincidunt elit imperdiet dapibus. Nunc condimentum fermentum laci
 Duis ultricies, sem eu fermentum fermentum, nisl tellus egestas odio, at placerat augue quam eget justo. Nullam facilisis porttitor ante, vitae blandit odio dapibus at. Nam tellus arcu, tristique sit amet posuere ut, posuere id nibh. Fusce ut diam dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc metus sapien, feugiat sed diam in, facilisis sollicitudin eros. Quisque quis ex et nunc pellentesque vestibulum. Praesent interdum molestie orci, id faucibus lorem blandit consequat. Vivamus aliquam, erat eu facilisis lacinia, felis nunc tristique lectus, iaculis pretium lectus massa eget risus. Pellentesque rhoncus arcu vel elementum venenatis. Ut in blandit libero, eget facilisis magna. Morbi aliquam elit ut neque imperdiet scelerisque.
 ''')
 
-st.markdown('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">', unsafe_allow_html=True)
-st.markdown('<i class="bi bi-youtube"></i>', unsafe_allow_html=True)
-
 load_css()
