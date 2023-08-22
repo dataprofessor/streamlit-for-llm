@@ -1,5 +1,6 @@
 import streamlit as st
 from utilities import load_css
+import os
 
 st.set_page_config(page_title="Lesson 1 - Getting up to speed with Streamlit", page_icon="1️⃣")
 
@@ -165,7 +166,7 @@ In this lesson, we're introduced to Streamlit along with how to setup a computin
 ''', unsafe_allow_html=True)
 
 
-import os
+
 def file_selector(folder_path='.'):
     filenames = os.listdir(folder_path)
     selected_filename = st.selectbox('Select a file', filenames)
