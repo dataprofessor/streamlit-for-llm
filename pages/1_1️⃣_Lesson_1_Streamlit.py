@@ -162,7 +162,7 @@ In this lesson, we're introduced to Streamlit along with how to setup a computin
 ''', unsafe_allow_html=True)
 
 
-
+import os
 def file_selector(folder_path='.'):
     filenames = os.listdir(folder_path)
     selected_filename = st.selectbox('Select a file', filenames)
