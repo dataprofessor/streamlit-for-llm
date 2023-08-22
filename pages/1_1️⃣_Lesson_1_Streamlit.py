@@ -157,6 +157,6 @@ where `streamlit_app.py` is the Streamlit app that you've just created.
 In this lesson, we're introduced to Streamlit along with how to setup a computing environment as well as creating our first Streamlit app.
 
 
-''')
+''', unsafe_allow_html=True)
 
 load_css()
