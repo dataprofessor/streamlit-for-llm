@@ -9,7 +9,7 @@ st.set_page_config(
 
 load_css()
 
-st.sidebar.header('Generative AI course')
+st.sidebar.title('Generative AI course')
 
 img = Image.open('img/streamlit-generative-ai-course-logo.png')
 st.image(img)
