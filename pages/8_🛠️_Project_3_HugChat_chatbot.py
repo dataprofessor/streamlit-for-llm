@@ -1,9 +1,9 @@
 import streamlit as st
 from utilities import load_css
 
-st.set_page_config(page_title="Project 3 - Build a HugChat chatbot", page_icon="3️⃣")
+st.set_page_config(page_title="Project 3 - Build a HugChat chatbot", page_icon="🛠️")
 
-st.header("3️⃣ Project 3 - Build a HugChat chatbot")
+st.header("🛠️ Project 3 - Build a HugChat chatbot")
 
 st.markdown('''
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet lacus nulla, vitae faucibus erat cursus ut. Nullam quam lorem, semper eu nulla sit amet, pharetra viverra mi. Donec suscipit ligula metus, nec venenatis orci pellentesque et. Quisque ac sem eros. Duis non tellus vel est dictum interdum. Nam pulvinar mattis rhoncus. In sit amet ante ut odio scelerisque ullamcorper. Aliquam hendrerit facilisis purus eu mollis. Maecenas iaculis eget turpis nec mollis.
