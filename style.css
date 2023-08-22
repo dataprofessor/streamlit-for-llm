@@ -17,3 +17,8 @@
                 position: relative;
                 top: 90px;
             }
+
+li a:hover {
+  font-weight: bold;
+  background: #F7DC6F;
+}
