@@ -3,7 +3,7 @@
                 background-image: url("https://github.com/dataprofessor/streamlit-for-generative-ai/blob/master/img/streamlit-generative-ai-course-logo.png?raw=true");
                 background-size: 80%;
                 background-repeat: no-repeat;
-                padding-top: 20px;
+                padding-top: 60px; /* Gap between logo and menu bar */
                 margin-top: 20px;
                 background-position: center top;
                 /* background-position: 20px 20px; */
