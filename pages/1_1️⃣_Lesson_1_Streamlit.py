@@ -8,7 +8,6 @@ load_css()
 
 st.header("1️⃣ Lesson 1")
 st.header("Getting up to speed with Streamlit")
-st.markdown('<div style="top: -50px;"></div>', unsafe_allow_html=True)
 
 url_path = 'https://github.com/dataprofessor/streamlit-for-generative-ai/blob/master'
 url_suffix = '?raw=true'
