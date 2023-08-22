@@ -7,7 +7,10 @@ load_css()
 
 st.header("1️⃣ Lesson 1 - Getting up to speed with Streamlit")
 
-st.markdown('''
+url_path = 'https://github.com/dataprofessor/streamlit-for-generative-ai/blob/master'
+url_suffix = '?raw=true'
+
+st.markdown(f'''
 
 In this lesson, we'll get you started with Streamlit from going over the overarching concept of this low-code web framework, setting up a coding environment and to writing your first Streamlit app.
 
@@ -26,7 +29,7 @@ Streamlit is a Python library that you can use to build interactive data-driven 
 A typical workflow for the creation and deployment of Streamlit app is summarized below:
 
 <p align="center">
-   <img src="../img/lesson-1-streamlit-workflow.png" width="65%">
+   <img src="{url_path}/img/lesson-1-streamlit-workflow.png{url_suffix}" width="65%">
 </p>
 
 1. **Collect requirements** - In this phase, we want to make a list of the desirable features and capabilities that we want our web app to do.
