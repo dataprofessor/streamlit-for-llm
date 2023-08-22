@@ -3,6 +3,8 @@ from utilities import load_css
 
 st.set_page_config(page_title="Lesson 1 - Getting up to speed with Streamlit", page_icon="1️⃣")
 
+load_css()
+
 st.header("1️⃣ Lesson 1 - Getting up to speed with Streamlit")
 
 st.markdown('''
@@ -159,4 +161,12 @@ In this lesson, we're introduced to Streamlit along with how to setup a computin
 
 ''', unsafe_allow_html=True)
 
-load_css()
+
+
+def file_selector(folder_path='.'):
+    filenames = os.listdir(folder_path)
+    selected_filename = st.selectbox('Select a file', filenames)
+    return os.path.join(folder_path, selected_filename)
+
+filename = file_selector()
+st.write('You selected `%s`' % filename)
