@@ -12,7 +12,6 @@ url_path = 'https://github.com/dataprofessor/streamlit-for-generative-ai/blob/ma
 url_suffix = '?raw=true'
 
 st.markdown(f'''
-<img src="./logo.png" width="75%">
 In this lesson, we'll get you started with Streamlit from going over the overarching concept of this low-code web framework, setting up a coding environment and to writing your first Streamlit app.
 
 ## Table of Contents
@@ -109,13 +108,13 @@ streamlit run app.py
 You’ll see the web app browser pop up:
 
 <p align="center">
-  <img src="../img/lesson-1-EDA-app.png" width="75%">
+  <img src="{url_path}/img/lesson-1-EDA-app.png{url_suffix}" width="75%">
 </p>
 
 The functionality of this EDA app leverages the capabilities of pandas-profiling. Let's take a look at the app in action:
 
 <p align="center">
-   <img src="../img/lesson-1-EDA-app-screencast.gif" width="75%">
+   <img src="{url_path}/img/lesson-1-EDA-app-screencast.gif{url_suffix}" width="75%">
 </p>
 
 Congratulations! You now know how to clone a Streamlit app from a GitHub repo, setup a dedicated conda environment, and successfully launch the app!
@@ -165,12 +164,3 @@ In this lesson, we're introduced to Streamlit along with how to setup a computin
 
 ''', unsafe_allow_html=True)
 
-
-
-def file_selector(folder_path='.'):
-    filenames = os.listdir(folder_path)
-    selected_filename = st.selectbox('Select a file', filenames)
-    return os.path.join(folder_path, selected_filename)
-
-filename = file_selector()
-st.write('You selected `%s`' % filename)
