@@ -6,7 +6,8 @@ st.set_page_config(page_title="Lesson 1 - Getting up to speed with Streamlit", p
 
 load_css()
 
-st.header("1️⃣ Lesson 1 - Getting up to speed with Streamlit")
+st.header("1️⃣ Lesson 1")
+st.header("Getting up to speed with Streamlit")
 
 url_path = 'https://github.com/dataprofessor/streamlit-for-generative-ai/blob/master'
 url_suffix = '?raw=true'
