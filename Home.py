@@ -14,7 +14,7 @@ st.image(img)
 
 # About
 st.header('About')
-st.write('The Streamlit for Generative AI course will show you how to use Streamlit to build large language model (LLM) powered apps. Finally you can deploy the Streamlit app to the cloud and share with the community.')
+st.info('The Streamlit for Generative AI course will show you how to use Streamlit to build large language model (LLM) powered apps. Finally you can deploy the Streamlit app to the cloud and share with the community.')
 
 # Table of Contents
 st.header('Table of Contents')
