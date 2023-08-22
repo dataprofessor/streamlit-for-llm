@@ -12,7 +12,7 @@ url_path = 'https://github.com/dataprofessor/streamlit-for-generative-ai/blob/ma
 url_suffix = '?raw=true'
 
 st.markdown(f'''
-
+<img src="./logo.png" width="75%">
 In this lesson, we'll get you started with Streamlit from going over the overarching concept of this low-code web framework, setting up a coding environment and to writing your first Streamlit app.
 
 ## Table of Contents
@@ -109,7 +109,7 @@ streamlit run app.py
 You’ll see the web app browser pop up:
 
 <p align="center">
-  <img src="./img/lesson-1-EDA-app.png" width="75%">
+  <img src="../img/lesson-1-EDA-app.png" width="75%">
 </p>
 
 The functionality of this EDA app leverages the capabilities of pandas-profiling. Let's take a look at the app in action:
