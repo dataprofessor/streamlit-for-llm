@@ -4,7 +4,7 @@
                 background-size: 80%;
                 background-repeat: no-repeat;
                 padding-top: 60px; /* Gap between logo and menu bar */
-                margin-top: 120px;
+                margin-top: 60px; /* Gap between logo and top */
                 background-position: center top;
                 /* background-position: 20px 20px; */
             }
