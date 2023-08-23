@@ -274,6 +274,4 @@ Suggested starting points to try out for these 2 parameters is rationalized in a
 ## 11. Summary
 
 In summary, this lesson have laid the groundwork for getting started with using the OpenAI Python library to create a useful LLM tool for blog ideation as well as a simple chatbot. Armed with this new knowledge and set of skills, you're now ready to build impactful generative AI tools for addressing any real-world problem that interests you.
-''')
-
-load_css()
+''', unsafe_allow_html=True)
