@@ -12,7 +12,7 @@ url_path = 'https://github.com/dataprofessor/streamlit-for-generative-ai/blob/ma
 url_suffix = '?raw=true'
 
 st.markdown(f'''
-In this lesson, we'll get you up to speed in using OpenAI for text generation and we'll start from scratch by showing you how to get an API key, installing the `openai` library in Python and up to generating text and build simple ChatGPT-like chatbot.
+In this lesson, we will get you up to speed in using OpenAI for text generation and we will start from scratch by showing you how to get an API key, installing the `openai` library in Python and up to generating text and build simple ChatGPT-like chatbot.
 
 ## Table of Contents
 1. [What is OpenAI?](#1-what-is-openai)
@@ -65,15 +65,15 @@ Follow the following steps to get your own API key from OpenAI:
 4. Click on `+ Create new secret key`
 5. Enter an optional `Name` for the API key for future reference
 
-That's all it takes to create your own OpenAI API key, which starts with `sk-`.
+That is all it takes to create your own OpenAI API key, which starts with `sk-`.
 
 > **💡 Note**
 >
 > An alternative to steps 1-3 mentioned above, you can also:
-> 1. Make sure that you're logged in to your OpenAI account
+> 1. Make sure that you are logged in to your OpenAI account
 > 2. Go to https://platform.openai.com/account/api-keys
 
-Let's have a look at a short recording showing how to get your own OpenAI API key:
+Let us have a look at a short recording showing how to get your own OpenAI API key:
 
 <p align="center">
    <img src="{url_path}/img/lesson-2-getting-api-key.gif{url_suffix}" width="65%">
@@ -132,7 +132,7 @@ import os
 import openai
 
 # Setting the API key
-openai.api_key = os.environ['OPENAI_API_KEY']
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 # Perform tasks using OpenAI API
 openai.Model.list() # List all OpenAI models
@@ -147,7 +147,7 @@ As already mentioned above, going forward the chat completions API will be used 
 
 ## 8. Using the Chat Completion API
 ### 8.1. Test
-Let's now proceed to using the Chat Completions API by providing it with an input prompt, and in this example, we use **_Hello_**!
+Let us now proceed to using the Chat Completions API by providing it with an input prompt, and in this example, we use **_Hello_**!
 
 ```python
 # Import prerequisite libraries
@@ -217,7 +217,7 @@ With the OpenAI API, we can create our own ChatGPT chatbot using the same techno
 
 However, this chatbot is a simpler version without the fancy graphical user interface (GUI) and instead of entering prompts into a text box, we provide them in the form of an input argument to a function.
 
-Let's consider the following example code snippet for a creating a simple ChatGPT-like chatbot along with a detailed explanation as in-line comments. 
+Let us consider the following example code snippet for a creating a simple ChatGPT-like chatbot along with a detailed explanation as in-line comments. 
 
 The chatbot even has memory of the conversation history!
 
@@ -274,4 +274,5 @@ Suggested starting points to try out for these 2 parameters is rationalized in a
 ## 11. Summary
 
 In summary, this lesson have laid the groundwork for getting started with using the OpenAI Python library to create a useful LLM tool for blog ideation as well as a simple chatbot. Armed with this new knowledge and set of skills, you're now ready to build impactful generative AI tools for addressing any real-world problem that interests you.
+
 ''', unsafe_allow_html=True)
