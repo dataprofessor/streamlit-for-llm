@@ -46,4 +46,42 @@ The OpenAI API provides an interface to the following:
 4. **Speech to text** - The Whisper model enables transcription and translation of user-provided audio file through its API endpoints.
 5. **Fine-tuning** - OpenAI models can be fine-tuned in order to achieve better results. This is accomplished by supplying a foundational model with a compilation of training instances, effectively offering a larger volume of examples than what can be achieved by few-shot learning (i.e. prompts with a few training examples).
 
+## 3. GPT for Text Generation
+
+OpenAI refers to text generation simply as completions as in text completion. It is interesting to note the naming convention, which derives from  how these language models generate text via the use of word probability, one word at a time as it completes the initial starting words to form complete sentences.
+
+An alternative to completions are chat completions that are GPT models that have been optimized for conversational text. We are probably most familiar with this GPT type as the underlying GPT 3.5 and their flagship GPT 4 are powering the vastly popular ChatGPT.
+
+An added benefit of chat completions is that they are less prone to prompt injection attacks as user-provided content is separate from instruction prompt.
+
+It is worthy to note that going forward, their completions API are in plans for deprecation and this stems from the higher usage of their chat completions API accounting for 97% of their GPT API usage. This comes at a time when GPT 4 is being rolled out to all paying API users. Further details are provided in this OpenAI blog released on July 6, 2023.
+
+## 4. Getting your own OpenAI API key
+
+Follow the following steps to get your own API key from OpenAI:
+1. Go to https://openai.com/
+2. Click on Menu > Developers > Overview
+3. Click on your Profile image (top right) > View API keys
+4. Click on `+ Create new secret key`
+5. Enter an optional `Name` for the API key for future reference
+
+That's all it takes to create your own OpenAI API key, which starts with `sk-`.
+
+> **💡 Note**
+>
+> An alternative to steps 1-3 mentioned above, you can also:
+> 1. Make sure that you're logged in to your OpenAI account
+> 2. Go to https://platform.openai.com/account/api-keys
+
+Let's have a look at a short recording showing how to get your own OpenAI API key:
+
+<p align="center">
+   <img src="{url_path}/img/lesson-2-getting-api-key.gif{url_suffix}" width="65%">
+</p>
+
+> **💡 Note**
+>
+> Make sure to not share your API key in public repositories as others may use your API key and in doing so consume your API credits.
+
+Further information for safely using API keys is summarized in the blog, [8 tips for securely using API keys](https://blog.streamlit.io/8-tips-for-securely-using-api-keys/)
 ''', unsafe_allow_html=True)
