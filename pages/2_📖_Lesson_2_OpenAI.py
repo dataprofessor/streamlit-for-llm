@@ -76,7 +76,7 @@ That's all it takes to create your own OpenAI API key, which starts with `sk-`.
 Let's have a look at a short recording showing how to get your own OpenAI API key:
 
 <p align="center">
-   <img src="{url_path}/img/lesson-2-getting-api-key.gif{url_suffix}" width="65%">
+   <img src="{url_path}/img/lesson-2-getting-api-key.gif{url_suffix}" width="90%">
 </p>
 
 > **💡 Note**
@@ -84,4 +84,59 @@ Let's have a look at a short recording showing how to get your own OpenAI API ke
 > Make sure to not share your API key in public repositories as others may use your API key and in doing so consume your API credits.
 
 Further information for safely using API keys is summarized in the blog, [8 tips for securely using API keys](https://blog.streamlit.io/8-tips-for-securely-using-api-keys/)
+
+
+## 5. Installing OpenAI Python library
+
+The OpenAI library can be installed via `pip` as follows:
+```python
+pip install openai
+```
+
+## 6. Setting the OpenAI API key on a local computer
+
+Recall that in a prior step, we've generated our OpenAI API key and instead of having to explicitly hard code the API key each time that we code an LLM tool, rather we're going to literally save the API key to memory. 
+To do this, we're saving the API key as an environment variable that is essentially the memory of our operating system that we can access from the command line or from our Python code.
+Depending on which operating system that we're using, we can set the environmental variable using varying commands. The article entitled Best Practices for API Key Safety by Michael Schade provides a great coverage on how to do this on various operating systems such as Windows, Linux and Mac OSX.
+
+1. Setting the API key - To set the API key as an environment variable OPENAI_API_KEY we would enter the following into the command line (this is what I did on my local installation on a Mac OSX):
+
+```
+echo "export OPENAI_API_KEY='sk-xxxxxxxxxx'" >> ~/.zshrc
+```
+
+In practical terms, what these commands are doing is literally telling the computer to set (using the command `export`) the API key `sk-xxxxxxxxxx` as a variable called `OPENAI_API_KEY`. In order to save the previous command to a file the `echo` command was used together with `>>` followed by the file path `~/.zshrc` (`~` refers to the path of the current working directory which would typically be located at `/home/username`).
+
+2. Update with the newly defined variable - Next, we will now want to tell the shell to update with the newly defined variable by entering:
+
+```
+source ~/.zshrc
+```
+
+3. Calling the API key from environment variable - To verify that our API key is indeed in the environment variable we can call it from the command line as follows:
+
+```
+echo $OPENAI_API_KEY
+```
+
+You should be able to see the API key as the returned output:
+
+```
+sk-xxxxxxxxxx
+```
+
+To use it from your Python code, you can call it from the environment variable via the `os.environ['OPENAI_API_KEY']`:
+
+```python
+# Import prerequisite libraries
+import os
+import openai
+
+# Setting the API key
+openai.api_key = os.environ['OPENAI_API_KEY']
+
+# Perform tasks using OpenAI API
+openai.Model.list() # List all OpenAI models
+```
+
 ''', unsafe_allow_html=True)
