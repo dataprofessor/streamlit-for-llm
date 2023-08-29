@@ -166,9 +166,8 @@ completion = openai.ChatCompletion.create(
   # Pre-define conversation messages for the possible roles 
   messages=[
     {"role": "system", "content": "You are a helpful assistant."},
-    {"role": "user", "content": prompt}
-   ]
- )
+    {"role": "user", "content": prompt} ]
+  )
 ```
 
 
