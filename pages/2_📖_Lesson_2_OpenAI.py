@@ -182,34 +182,5 @@ The above code snippet produces the following output where the generated respons
 }
 ```
 
-It is worthy to note that in this example, only 2 input parameters were used namely `model` and `messages` that correspondingly allowed us to specify the LLM model to use (GPT 3.5) and the pre-defined conversation messages consisting of `system` and `user` (_i.e._ `assistant` was not specified in this example).
-
-### 8.2. Creating a blog outline generator
-With a little tweak to the system and prompt messages, we can create a blog outline generator.
-
-```python
-import os
-import openai
-
-#openai.api_key = os.getenv("OPENAI_API_KEY")
-
-prompt = "Please generate a blog outline on how a beginner can break into the field of data science."
-
-completion = openai.ChatCompletion.create(
-  model="gpt-3.5-turbo",
-  messages=[
-    {"role": "system", "content": "You are a helpful assistant with extensive experience in data science and technical writing."},
-    {"role": "user", "content": prompt}
-  ]
-)
-
-print(completion.choices[0].message)
-```
-
-The code snippet mentioned above works in a Colab or Jupyter notebook environment, as well as in a command line interface. For the latter, if you save it as a file (for instance as `blog.py`)  you can run it in the command line by typing python `blog.py`
-
-<p align="center">
-   <img src="{url_path}/img/lesson-2-blog-py.gif{url_suffix}" width="90%">
-</p>
 
 ''', unsafe_allow_html=True)
