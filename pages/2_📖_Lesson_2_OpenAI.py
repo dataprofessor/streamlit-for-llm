@@ -148,7 +148,7 @@ As already mentioned above, going forward the chat completions API will be used 
 
 ## 8. Using the Chat Completion API
 ### 8.1. Test
-Let's now proceed to using the Chat Completions API by providing it with an input prompt, and in this example, we use **_Hello_**!
+Let us now proceed to using the Chat Completions API by providing it with an input prompt, and in this example, we use **_Hello_**!
 
 ```
 # Import prerequisite libraries
