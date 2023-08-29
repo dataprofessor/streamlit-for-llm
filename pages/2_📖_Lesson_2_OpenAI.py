@@ -139,4 +139,77 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 openai.Model.list() # List all OpenAI models
 ```
 
+## 7. OpenAI for text generation
+
+Of all available models, those that can be used for text generation in OpenAI includes:
+1. Chat Completions (`gpt-4`, `gpt-3.5-turbo`)
+2. Completions (`text-davinci-003`, `text-davinci-002`, `davinci`, `curie`, `babbage`, `ada`)
+As already mentioned above, going forward the chat completions API will be used as the default for text generation while the completions API would be deprecated.
+
+## 8. Using the Chat Completion API
+### 8.1. Test
+Let's now proceed to using the Chat Completions API by providing it with an input prompt, and in this example, we use **_Hello_**!
+
+```python
+# Import prerequisite libraries
+import os
+import openai
+
+# Setting the API key
+openai.api_key = os.getenv("OPENAI_API_KEY")
+# Define the user prompt message
+prompt = "Hello!"
+# Create a chatbot using ChatCompletion.create() function
+completion = openai.ChatCompletion.create(
+  # Use GPT 3.5 as the LLM
+  model="gpt-3.5-turbo",
+  # Pre-define conversation messages for the possible roles 
+  messages=[
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": prompt}
+  ]
+)
+# Print the returned output from the LLM model
+print(completion.choices[0].message)
+```
+
+The above code snippet produces the following output where the generated response is **_Hello! How can I assist you today_**?
+
+```
+{
+  "role": "assistant",
+  "content": "Hello! How can I assist you today?"
+}
+```
+
+It is worthy to note that in this example, only 2 input parameters were used namely `model` and `messages` that correspondingly allowed us to specify the LLM model to use (GPT 3.5) and the pre-defined conversation messages consisting of `system` and `user` (_i.e._ `assistant` was not specified in this example).
+
+### 8.2. Creating a blog outline generator
+With a little tweak to the system and prompt messages, we can create a blog outline generator.
+
+```python
+import os
+import openai
+
+#openai.api_key = os.getenv("OPENAI_API_KEY")
+
+prompt = "Please generate a blog outline on how a beginner can break into the field of data science."
+
+completion = openai.ChatCompletion.create(
+  model="gpt-3.5-turbo",
+  messages=[
+    {"role": "system", "content": "You are a helpful assistant with extensive experience in data science and technical writing."},
+    {"role": "user", "content": prompt}
+  ]
+)
+
+print(completion.choices[0].message)
+```
+
+The code snippet mentioned above works in a Colab or Jupyter notebook environment, as well as in a command line interface. For the latter, if you save it as a file (for instance as `blog.py`)  you can run it in the command line by typing python `blog.py`
+
+<p align="center">
+   <img src="{url_path}/img/lesson-2-blog-py.gif{url_suffix}" width="90%">
+</p>
+
 ''', unsafe_allow_html=True)
