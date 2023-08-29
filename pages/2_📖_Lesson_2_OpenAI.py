@@ -150,7 +150,7 @@ As already mentioned above, going forward the chat completions API will be used 
 ### 8.1. Test
 Let's now proceed to using the Chat Completions API by providing it with an input prompt, and in this example, we use **_Hello_**!
 
-```python
+```
 # Import prerequisite libraries
 import os
 import openai
