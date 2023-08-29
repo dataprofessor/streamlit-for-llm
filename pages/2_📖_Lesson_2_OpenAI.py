@@ -125,7 +125,7 @@ You should be able to see the API key as the returned output:
 sk-xxxxxxxxxx
 ```
 
-To use it from your Python code, you can call it from the environment variable via the `os.environ['OPENAI_API_KEY']`:
+To use it from your Python code, you can call it from the environment variable via the `os.environ["OPENAI_API_KEY"]`:
 
 ```python
 # Import prerequisite libraries
@@ -133,7 +133,7 @@ import os
 import openai
 
 # Setting the API key
-openai.api_key = os.environ['OPENAI_API_KEY']
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 # Perform tasks using OpenAI API
 openai.Model.list() # List all OpenAI models
