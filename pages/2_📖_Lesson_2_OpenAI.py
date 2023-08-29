@@ -146,41 +146,6 @@ Of all available models, those that can be used for text generation in OpenAI in
 2. Completions (`text-davinci-003`, `text-davinci-002`, `davinci`, `curie`, `babbage`, `ada`)
 As already mentioned above, going forward the chat completions API will be used as the default for text generation while the completions API would be deprecated.
 
-## 8. Using the Chat Completion API
-### 8.1. Test
-Let's now proceed to using the Chat Completions API by providing it with an input prompt, and in this example, we use **_Hello_**!
-
-```python
-# Import prerequisite libraries
-import os
-import openai
-
-# Setting the API key
-openai.api_key = os.getenv("OPENAI_API_KEY")
-# Define the user prompt message
-prompt = "Hello!"
-# Create a chatbot using ChatCompletion.create() function
-completion = openai.ChatCompletion.create(
-  # Use GPT 3.5 as the LLM
-  model="gpt-3.5-turbo",
-  # Pre-define conversation messages for the possible roles 
-  messages=[
-    {"role": "system", "content": "You are a helpful assistant."},
-    {"role": "user", "content": prompt}
-  ]
-)
-# Print the returned output from the LLM model
-print(completion.choices[0].message)
-```
-
-The above code snippet produces the following output where the generated response is **_Hello! How can I assist you today_**?
-
-```
-{
-  "role": "assistant",
-  "content": "Hello! How can I assist you today?"
-}
-```
 
 
 ''', unsafe_allow_html=True)
