@@ -155,6 +155,9 @@ Let us now proceed to using the Chat Completions API by providing it with an inp
 import os
 import openai
 
+# Setting the API key
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
 ```
 
 
