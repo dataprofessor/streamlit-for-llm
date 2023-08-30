@@ -28,7 +28,7 @@ st.markdown('''
 
    <li>
       <a href="Lesson_1_Generative_AI" target="_self" style="text-decoration: none;">
-         <b>Lesson 0</b> - An introduction to Generative AI
+         <b>Lesson 1</b> - An introduction to Generative AI
       </a>
    </li>
 
