@@ -1,6 +1,6 @@
 # 📖 Lesson 4 - Using hosted open source LLM models from Replicate
 
-In this lesson, 
+In this lesson, we'll be taking a look at how we can use a remotely hosted LLM model.
 
 ## Table of Contents
 1. [What is Replicate?](#1-what-is-replicate)
