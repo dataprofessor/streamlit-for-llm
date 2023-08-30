@@ -27,7 +27,7 @@ Such models are accessible via a simple API call and Replicate's model page prov
 In addition, to code snippets, another notable feature on the model page is the Demo that allows the user to play with the LLM model. Go ahead, try adjusting the prompt and model parameters and see how it works.
 
 <p align="center">
-   <img src="../img/lesson-4-replicate-demo-page.png" width="65%">
+   <img src="../img/lesson-4-replicate-demo-page.png" width="90%">
 </p>
 
 ## 2. Installing Replicate
@@ -51,6 +51,8 @@ Watch the following screencast to get your own Replicate API token.
 
 ## 4. Setting the Replicate API token
 
+In order to allow our Python script access to the forthcoming LLM model, we'll need to assign the Replicate API token as an environment variable so that it is in memory for subsequent authorization by the Replicate platform.
+
 ```Python
 import os
 
@@ -58,6 +60,11 @@ os.environ["REPLICATE_API_TOKEN"] = "r8_xxxxxxxxxxxxxxxxxxx"
 ```
 
 ## 5. Running an LLM model
+
+To perform an LLM response generation, we'll need to:
+- Import the `replicate` library
+- Define our system prompt (i.e. herein defined as the `pre_prompt` variable) and prompt input
+- Generate the LLM response by calling the `replicate.run()` method along with specifying the LLM model to use, the prompt input as well as model parameters.
 
 ```Python
 import replicate
@@ -74,4 +81,4 @@ output = replicate.run('a16z-infra/llama13b-v2-chat:df7690f1994d94e96ad9d568eac1
 
 ## 6. Summary
 
-
+In this lesson, you've learned how to use a remotely hosted LLM model.
