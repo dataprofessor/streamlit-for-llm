@@ -1,4 +1,4 @@
-# 📓 Lesson 4 - Using hosted open source LLM models from Replicate
+# 📖 Lesson 4 - Using hosted open source LLM models from Replicate
 
 In this lesson, 
 
