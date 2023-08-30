@@ -1,5 +1,5 @@
 import streamlit as st
-from utilities import load_css
+from utilities import load_css, read_md
 
 st.set_page_config(page_title="Project 3 - Build a HugChat chatbot", page_icon="🛠️")
 
