@@ -21,8 +21,14 @@ st.header('Table of Contents')
 st.markdown('''
 <ul style="list-style-type:square; margin: 5px;">
    <li>
-      <a href="Lesson_1_Streamlit" target="_self" style="text-decoration: none;">
-         <b>Lesson 1</b> - Getting up to speed with Streamlit
+      <a href="Lesson_0_Streamlit" target="_self" style="text-decoration: none;">
+         <b>Lesson 0</b> - Getting up to speed with Streamlit
+      </a>
+   </li>
+
+   <li>
+      <a href="Lesson_1_Generative_AI" target="_self" style="text-decoration: none;">
+         <b>Lesson 0</b> - An introduction to Generative AI
       </a>
    </li>
 
