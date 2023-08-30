@@ -30,7 +30,7 @@ Streamlit is a Python library that you can use to build interactive data-driven 
 A typical workflow for the creation and deployment of Streamlit app is summarized below:
 
 <p align="center">
-   <img src="{url_path}/img/lesson-1-streamlit-workflow.png{url_suffix}" width="90%">
+   <img src="{url_path}/img/lesson-0-streamlit-workflow.png{url_suffix}" width="90%">
 </p>
 
 1. **Collect requirements** - In this phase, we want to make a list of the desirable features and capabilities that we want our web app to do.
@@ -109,13 +109,13 @@ streamlit run app.py
 You’ll see the web app browser pop up:
 
 <p align="center">
-  <img src="{url_path}/img/lesson-1-EDA-app.png{url_suffix}" width="90%">
+  <img src="{url_path}/img/lesson-0-EDA-app.png{url_suffix}" width="90%">
 </p>
 
 The functionality of this EDA app leverages the capabilities of pandas-profiling. Let's take a look at the app in action:
 
 <p align="center">
-   <img src="{url_path}/img/lesson-1-EDA-app-screencast.gif{url_suffix}" width="90%">
+   <img src="{url_path}/img/lesson-0-EDA-app-screencast.gif{url_suffix}" width="90%">
 </p>
 
 Congratulations! You now know how to clone a Streamlit app from a GitHub repo, setup a dedicated conda environment, and successfully launch the app!
