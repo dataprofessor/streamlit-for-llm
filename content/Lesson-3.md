@@ -4,7 +4,7 @@ In this lesson, we'll be introducing the Hugging Face Hub and focus on the Model
 
 ## Table of Contents
 1. [What is Hugging Face Hub?](#1-what-is-hugging-face-hub)
-2. [Using Hugging Face Hub](#2-using-hugging-face-hub)
+2. [Using Hugging Face Hub](#2-hugging-face-models)
 3. [Using a Hugging Face Model](#3-using-a-hugging-face-model)
 4. [Summary](#4-summary)
 
