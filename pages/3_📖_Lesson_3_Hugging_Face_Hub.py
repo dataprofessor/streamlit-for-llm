@@ -16,6 +16,9 @@ def read_md(md_file):
   return content
 
 md = read_md('Lesson-3.md')
-st.markdown(md, unsafe_allow_html=True)
+
+md
+
+#st.markdown(md, unsafe_allow_html=True)
 
 load_css()
