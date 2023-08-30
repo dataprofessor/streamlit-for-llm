@@ -65,15 +65,15 @@ Follow the following steps to get your own API key from OpenAI:
 4. Click on `+ Create new secret key`
 5. Enter an optional `Name` for the API key for future reference
 
-That's all it takes to create your own OpenAI API key, which starts with `sk-`.
+That is all it takes to create your own OpenAI API key, which starts with `sk-`.
 
 > **💡 Note**
 >
 > An alternative to steps 1-3 mentioned above, you can also:
-> 1. Make sure that you're logged in to your OpenAI account
+> 1. Make sure that you are logged in to your OpenAI account
 > 2. Go to https://platform.openai.com/account/api-keys
 
-Let's have a look at a short recording showing how to get your own OpenAI API key:
+Let us have a look at a short recording showing how to get your own OpenAI API key:
 
 <p align="center">
    <img src="{url_path}/img/lesson-2-getting-api-key.gif{url_suffix}" width="90%">
@@ -95,14 +95,14 @@ pip install openai
 
 ## 6. Setting the OpenAI API key on a local computer
 
-Recall that in a prior step, we've generated our OpenAI API key and instead of having to explicitly hard code the API key each time that we code an LLM tool, rather we're going to literally save the API key to memory. 
-To do this, we're saving the API key as an environment variable that is essentially the memory of our operating system that we can access from the command line or from our Python code.
-Depending on which operating system that we're using, we can set the environmental variable using varying commands. The article entitled Best Practices for API Key Safety by Michael Schade provides a great coverage on how to do this on various operating systems such as Windows, Linux and Mac OSX.
+Recall that in a prior step, we have generated our OpenAI API key and instead of having to explicitly hard code the API key each time that we code an LLM tool, rather we are going to literally save the API key to memory. 
+To do this, we are saving the API key as an environment variable that is essentially the memory of our operating system that we can access from the command line or from our Python code.
+Depending on which operating system that we are using, we can set the environmental variable using varying commands. The article entitled Best Practices for API Key Safety by Michael Schade provides a great coverage on how to do this on various operating systems such as Windows, Linux and Mac OSX.
 
 1. Setting the API key - To set the API key as an environment variable OPENAI_API_KEY we would enter the following into the command line (this is what I did on my local installation on a Mac OSX):
 
 ```
-echo "export OPENAI_API_KEY='sk-xxxxxxxxxx'" >> ~/.zshrc
+echo "export OPENAI_API_KEY="sk-xxxxxxxxxx" " >> ~/.zshrc
 ```
 
 In practical terms, what these commands are doing is literally telling the computer to set (using the command `export`) the API key `sk-xxxxxxxxxx` as a variable called `OPENAI_API_KEY`. In order to save the previous command to a file the `echo` command was used together with `>>` followed by the file path `~/.zshrc` (`~` refers to the path of the current working directory which would typically be located at `/home/username`).
