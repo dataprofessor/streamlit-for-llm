@@ -4,6 +4,8 @@ import requests
 
 st.set_page_config(page_title="Lesson 3 - Using open source LLM models from Hugging Face Hub", page_icon="📖")
 
+md_file = 'Lesson-3.md'
+
 #def read_md(md_file):
 img_url_path = 'https://github.com/dataprofessor/streamlit-for-generative-ai/blob/master'
 img_url_suffix = '?raw=true'
