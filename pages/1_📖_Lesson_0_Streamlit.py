@@ -2,11 +2,11 @@ import streamlit as st
 from utilities import load_css
 import os
 
-st.set_page_config(page_title="Lesson 1 - Getting up to speed with Streamlit", page_icon="📖")
+st.set_page_config(page_title="Lesson 0 - Getting up to speed with Streamlit", page_icon="📖")
 
 load_css()
 
-st.header("📖 Lesson 1")
+st.header("📖 Lesson 0")
 st.header("Getting up to speed with Streamlit")
 
 url_path = 'https://github.com/dataprofessor/streamlit-for-generative-ai/blob/master'
