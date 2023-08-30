@@ -5,5 +5,5 @@ st.set_page_config(page_title="Lesson 0 - Getting up to speed with Streamlit", p
 
 load_css()
 
-md = read_md('Lesson-0.md')
+md = read_md('Lesson-000.md')
 st.markdown(md, unsafe_allow_html=True)
