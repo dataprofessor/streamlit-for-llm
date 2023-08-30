@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image
-from utilities import load_css, read_md
-import requests
+from utilities import load_css
 
 st.set_page_config(
     page_title="Welcome to the Streamlit for Generative AI course",
