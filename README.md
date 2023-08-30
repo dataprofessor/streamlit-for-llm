@@ -6,7 +6,8 @@
 > The *Streamlit for Generative AI* course will show you how to use Streamlit to build large language model (LLM) powered apps. Finally you can deploy the Streamlit app to the cloud and share with the community.
 
 ## Table of contents
-- [**Lesson 1** - Getting up to speed with Streamlit](./content/Lesson-1.md)
+- [**Lesson 0** - Getting up to speed with Streamlit](./content/Lesson-0.md)
+- [**Lesson 0** - An introduction to Generative AI](./content/Lesson-1.md)
 - [**Lesson 2** - Using LLM models from OpenAI](./content/Lesson-2.md)
 - [**Lesson 3** - Using open source LLM models from Hugging Face Hub](./content/Lesson-3.md)
 - [**Lesson 4** - Using hosted open source LLM models from Replicate](./content/Lesson-4.md)
