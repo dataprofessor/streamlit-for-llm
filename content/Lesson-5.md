@@ -1,4 +1,4 @@
-# 📓 Lesson 5 - Orchestrating an LLM workflow with LangChain
+# 📖 Lesson 5 - Orchestrating an LLM workflow with LangChain
 
 In this lesson, we'll get you started by providing a high-level overview of LangChain, a popular LLM framework that provides several auxilliary tools that helps creating LLM-based tools much easier. You'll also get your first hands-on experience by building simple LLM workflow using LangChain. Additional examples will be covered in the series of projects provided in the course.
 
