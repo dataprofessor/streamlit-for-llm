@@ -1,9 +1,9 @@
 import streamlit as st
 from utilities import load_css, read_md
 
-st.set_page_config(page_title="Lesson 2 - Using LLM models from OpenAI", page_icon="📖")
+st.set_page_config(page_title="Lesson 1 - An Introduction to Generative AI", page_icon="📖")
 
 load_css()
 
-md = read_md('Lesson-2.md')
+md = read_md('Lesson-1.md')
 st.markdown(md, unsafe_allow_html=True)
