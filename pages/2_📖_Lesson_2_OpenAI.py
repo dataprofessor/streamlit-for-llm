@@ -168,7 +168,113 @@ completion = openai.ChatCompletion.create(
     {{"role": "system", "content": "You are a helpful assistant."}},
     {{"role": "user", "content": prompt}} ]
   )
+# Print the returned output from the LLM model
+print(completion.choices[0].message)
 ```
+
+
+The above code snippet produces the following output where the generated response is **_Hello! How can I assist you today_**?
+
+```
+{{
+  "role": "assistant",
+  "content": "Hello! How can I assist you today?"
+}}
+```
+
+It is worthy to note that in this example, only 2 input parameters were used namely `model` and `messages` that correspondingly allowed us to specify the LLM model to use (GPT 3.5) and the pre-defined conversation messages consisting of `system` and `user` (_i.e._ `assistant` was not specified in this example).
+
+### 8.2. Creating a blog outline generator
+With a little tweak to the system and prompt messages, we can create a blog outline generator.
+
+```python
+import os
+import openai
+
+#openai.api_key = os.getenv("OPENAI_API_KEY")
+
+prompt = "Please generate a blog outline on how a beginner can break into the field of data science."
+
+completion = openai.ChatCompletion.create(
+  model="gpt-3.5-turbo",
+  messages=[
+    {{"role": "system", "content": "You are a helpful assistant with extensive experience in data science and technical writing."}},
+    {{"role": "user", "content": prompt}}
+  ]
+)
+
+print(completion.choices[0].message)
+```
+
+The code snippet mentioned above works in a Colab or Jupyter notebook environment, as well as in a command line interface. For the latter, if you save it as a file (for instance as `blog.py`)  you can run it in the command line by typing python `blog.py`
+
+<p align="center">
+   <img src="{url_path}/img/lesson-2-blog-py.gif{url_suffix}" width="90%">
+</p>
+
+## 9. Creating our simple ChatGPT-like chatbot 
+
+With the OpenAI API, we can create our own ChatGPT chatbot using the same technology!
+
+However, this chatbot is a simpler version without the fancy graphical user interface (GUI) and instead of entering prompts into a text box, we provide them in the form of an input argument to a function.
+
+Let us consider the following example code snippet for a creating a simple ChatGPT-like chatbot along with a detailed explanation as in-line comments. 
+
+The chatbot even has memory of the conversation history!
+
+```python
+import openai
+
+# Initialize the chat messages history
+messages = [{{"role": "assistant", "content": "How can I help?"}}]
+
+# Function to display the chat history
+def display_chat_history(messages):
+    for message in messages:
+        print(f"{{message['role'].capitalize()}}: {{message['content']}}")
+
+# Function to get the assistant's response
+def get_assistant_response(messages):
+    r = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[{{"role": m["role"], "content": m["content"]}} for m in messages],
+    )
+    response = r.choices[0].message.content
+    return response
+
+# Main chat loop
+while True:
+    # Display chat history
+    display_chat_history(messages)
+    
+    # Get user input
+    prompt = input("User: ")
+    messages.append({{"role": "user", "content": prompt}})
+    
+    # Get assistant response
+    response = get_assistant_response(messages)
+    messages.append({{"role": "assistant", "content": response}})
+```
+
+The above code snippet works in a Colab or Jupyter notebook and also works in the command line, when saved as a file such as chatbot.py and then running it via `python chatbot.py`
+
+<p align="center">
+   <img src="{url_path}/img/lesson-2-chatbot-py.gif{url_suffix}" width="90%">
+</p>
+
+## 10. Spicing up the LLM generated response
+
+To spice up and add creativity to the LLM generated response, you can experiment with the `temperature` or `top_p` parameters.
+
+Possible values of the temperature parameter is in the range of 0 and 1 where 0 would lead to a conservative response (_i.e._ selects the highest probable words) whereas values approaching 1 would lead to a more creative response (_i.e._ selects a less probable word).
+
+Possible values of the `top_p` parameter is in the range of 0 and 1. The `top_p` value represents the cumulative probability of top-ranking probable words and it helps to reduce less probable words from the LLM generated response.
+
+Suggested starting points to try out for these 2 parameters is rationalized in an OpenAI forum response entitled [_Mastering Temperature and Top_p in ChatGPT API_](https://medium.com/r/?url=https%3A%2F%2Fcommunity.openai.com%2Ft%2Fcheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api-a-few-tips-and-tricks-on-controlling-the-creativity-deterministic-output-of-prompt-responses%2F172683).
+
+## 11. Summary
+
+In summary, this lesson have laid the groundwork for getting started with using the OpenAI Python library to create a useful LLM tool for blog ideation as well as a simple chatbot. Armed with this new knowledge and set of skills, you're now ready to build impactful generative AI tools for addressing any real-world problem that interests you.
 
 
 
