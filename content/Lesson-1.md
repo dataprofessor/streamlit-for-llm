@@ -8,6 +8,11 @@ In this lesson, we'll cover the fundamentals of the exciting field of generative
 
 ## 1. What is Generative AI?
 
+Generative artificial intelligence (also known as Generative AI or Gen AI) has in recent months emerged as a powerful and robust tool that can be used to generate content in various formats including text, image, audio and video. In this course, our focus is on text generation and the underlying method for producing such text is made possible by large language models (LLMs). Briefly, LLM 
+
+Probably the most popular and well-known LLM is ChatGPT, which in a matter of days had reached 1 million users and is approximately supporting over 100 million users. Not only is ChatGPT used by the general public, developers and indie hackers are building some interesting and innovative tools for tackling various use cases.
+
+Technically, the underlying LLM model powering ChatGPT is GPT 3.5 and it has established itself as a gold standard owing to its reasonably good performance and low cost. 
 
 <p align="center">
    <img src="../img/lesson-1-gen-ai.png" width="65%">
