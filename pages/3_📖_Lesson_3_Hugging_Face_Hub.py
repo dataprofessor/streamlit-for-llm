@@ -15,7 +15,7 @@ md_url_path = 'https://raw.githubusercontent.com/dataprofessor/streamlit-for-gen
 md_lesson_url = f'{md_url_path}/Lesson-3.md'
 response = requests.get(md_lesson_url)
 content = response.text
-content.replace('<img src="..', f'<img src="..{img_url_path}')
+content.replace('<img src="..', f'<img src="..{img_url_path}').replace('" width', '{url_suffix}" width')
 
 st.markdown(content, unsafe_allow_html=True)
 
