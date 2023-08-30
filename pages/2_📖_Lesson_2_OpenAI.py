@@ -102,7 +102,7 @@ Depending on which operating system that we are using, we can set the environmen
 1. Setting the API key - To set the API key as an environment variable OPENAI_API_KEY we would enter the following into the command line (this is what I did on my local installation on a Mac OSX):
 
 ```
-echo "export OPENAI_API_KEY="sk-xxxxxxxxxx" " >> ~/.zshrc
+echo "export OPENAI_API_KEY=`'sk-xxxxxxxxxx`'" >> ~/.zshrc
 ```
 
 In practical terms, what these commands are doing is literally telling the computer to set (using the command `export`) the API key `sk-xxxxxxxxxx` as a variable called `OPENAI_API_KEY`. In order to save the previous command to a file the `echo` command was used together with `>>` followed by the file path `~/.zshrc` (`~` refers to the path of the current working directory which would typically be located at `/home/username`).
