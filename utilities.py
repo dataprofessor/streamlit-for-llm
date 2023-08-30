@@ -5,7 +5,7 @@ def load_css():
     with open("style.css") as f:
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
-def read_md(md_file)
+def read_md(md_file):
   img_url_path = 'https://github.com/dataprofessor/streamlit-for-generative-ai/blob/master'
   img_url_suffix = '?raw=true'
   
