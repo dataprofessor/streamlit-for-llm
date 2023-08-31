@@ -1,4 +1,4 @@
-# 📖 Lesson 1 <br>An Introduction to Generative AI
+# 📖 Lesson 1 <br> An Introduction to Generative AI
 
 In this lesson, we'll cover the fundamentals of the exciting field of generative AI and large language models.
 
