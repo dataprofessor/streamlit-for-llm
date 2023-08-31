@@ -62,10 +62,10 @@ Let's now think about some of the generative AI apps that we can build.
 | App ideas | Description | Tech stack | Example |
 |---|---|---|---|
 | Chatbot | Build a generic chatbot or chatbot with a personality | `LLM`, `Streamlit` |
-| YouTube summarization | Summarize a Youtube video (load video using LangChain's data loader) | LLM, Streamlit | LLM, LangChain, Streamlit |
-| Research paper summarization | Summarize a research article (TXT, HTML or PDF) | LLM, Streamlit | [App](https://langchain-text-summarization.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-3-build-a-text-summarization-app/) |
-| Questions & Answer over articles |  Ask questions about an article (TXT, HTML or PDF) | LLM, LangChain, Streamlit | [App](https://langchain-ask-the-doc.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-4-build-an-ask-the-doc-app/) |
-| Questions & Answer over Docs | Ask questions on contents from an open source Documentation website | LLM, LlamaIndex, Streamlit | [App](https://llamaindex-chat-with-docs.streamlit.app/), [Blog](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/) |
-| Questions & Answer over Data | Ask questions about a CSV data | LLM, LangChain, Streamlit | [App](https://langchain-ask-the-data.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-5-build-an-ask-the-data-app/) |
+| YouTube summarization | Summarize a Youtube video (load video using LangChain's data loader) | `LLM`, `Streamlit` | LLM, LangChain, Streamlit |
+| Research paper summarization | Summarize a research article (TXT, HTML or PDF) | `LLM`, `Streamlit` | [App](https://langchain-text-summarization.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-3-build-a-text-summarization-app/) |
+| Questions & Answer over articles |  Ask questions about an article (TXT, HTML or PDF) | `LLM`, `LangChain`, `Streamlit` | [App](https://langchain-ask-the-doc.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-4-build-an-ask-the-doc-app/) |
+| Questions & Answer over Docs | Ask questions on contents from an open source Documentation website | `LLM`, `LlamaIndex`, `Streamlit` | [App](https://llamaindex-chat-with-docs.streamlit.app/), [Blog](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/) |
+| Questions & Answer over Data | Ask questions about a CSV data | `LLM`, `LangChain`, `Streamlit` | [App](https://langchain-ask-the-data.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-5-build-an-ask-the-data-app/) |
 
 Here are only a few ideas to get you started and there are many more that you can build. Proceed to the next lesson to get started!
