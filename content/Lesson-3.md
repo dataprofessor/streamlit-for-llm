@@ -1,4 +1,4 @@
-# 📖 Lesson 3 - Using open source LLM models from Hugging Face Hub
+# 📖 Lesson 3 <br> Using open source LLM models from Hugging Face Hub
 
 In this lesson, we'll be introducing the Hugging Face Hub and focus on the Models feature. Particularly, we'll explore the use of LLM models that are hosted on the Hugging Face Hub platform for building LLM tools.
 
