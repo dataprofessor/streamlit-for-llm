@@ -84,4 +84,4 @@ st.markdown('''
 
 ''', unsafe_allow_html=True)
 
-switch_page(Lesson_0_Streamlit)
+switch_page('Lesson_0_Streamlit')
