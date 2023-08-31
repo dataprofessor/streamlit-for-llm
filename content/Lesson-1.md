@@ -68,3 +68,4 @@ Let's now think about some of the generative AI apps that we can build.
 | Questions & Answer over Docs | Ask questions on contents from an open source Documentation website | LLM, LlamaIndex, Streamlit | [App](https://llamaindex-chat-with-docs.streamlit.app/), [Blog](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/) |
 | Questions & Answer over Data | Ask questions about a CSV data | LLM, LangChain, Streamlit | [App](https://langchain-ask-the-data.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-5-build-an-ask-the-data-app/) |
 
+Here are only a few ideas to get you started and there are many more that you can build. Proceed to the next lesson to get started!
