@@ -50,11 +50,19 @@ The motivation for building generative AI apps can stem from various compelling 
 A generic workflow for building an app involves:
 - Identify a problem to solve,
 - Figure out a solution to the problem through the use of AI and
-- Package this into an app that consists of a frontend for accepting user input, a backend that takes and processes (_i.e._ it is hear that the generative AI comes into play) the input and finally relaying the final output back to the frontend.
+- Package this into an app that consists of a frontend for accepting user input, a backend that takes and processes (_i.e._ it is here that generative AI comes into play) the input and finally relaying the final output back to the frontend.
 
 As mentioned above, we can use generative AI in the data processing phase where essentially the prompt input is used for generating the LLM response output. In the next section, we'll take a look at some example generative AI apps that we can build.
 
 ## 5. Generative AI app ideas
 
+Let's now think about some of the generative AI apps that we can build.
+
+
+| App idea | Description | Tech stack |
+|---|---|---|
+| YouTube summarization | Summarize a Youtube video | LLM, Streamlit |
+| Research paper summarization | Summarize a research article from TXT, HTML or PDF | LLM, Streamlit |
+| Chat with an article |  Ask questions about the article from TXT, HTML or PDF | LLM, LangChain, Streamlit |
 
 
