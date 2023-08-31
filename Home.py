@@ -84,4 +84,5 @@ st.markdown('''
 
 ''', unsafe_allow_html=True)
 
-switch_page('Lesson_0_Streamlit')
+if st.button('Lesson 0 - Getting up to speed with Streamlit'):
+    switch_page('Lesson_0_Streamlit')
