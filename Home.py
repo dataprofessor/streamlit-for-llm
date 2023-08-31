@@ -73,6 +73,12 @@ st.markdown('''
          <b>Project 3</b> - Build a HugChat chatbot
       </a>
    </li>
+   
+   <li>
+      <a href="Project_4_Code_Llama_chatbot" target="_self" style="text-decoration: none;">
+         <b>Project 4</b> - Build a Code Llama chatbot
+      </a>
+   </li>
 </ul>
 
 ''', unsafe_allow_html=True)
