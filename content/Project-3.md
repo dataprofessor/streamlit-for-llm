@@ -1,4 +1,4 @@
-# 🕹️ Project 3 - <br> Building a HuggingChat chatbot
+# 🕹️ Project 3 <br> Building a HuggingChat chatbot
 
 ## What are we building?
 
