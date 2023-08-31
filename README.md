@@ -16,7 +16,7 @@
 - [**Project 2** - Build a Llama 2 chatbot](./content/Project-2.md)
 - [**Project 3** - Build a HugChat chatbot](./content/Project-3.md)
 - [**Project 4** - Build a Code Llama chatbot](./content/Project-4.md)
-- 
+
 ## Resources
 - [Build powerful generative AI apps](https://streamlit.io/generative-ai) - Streamlit resources on building LLM-powered apps.
 - [Streamlit Gallery - LLM Category](https://streamlit.io/gallery?category=llms)
