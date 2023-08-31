@@ -1,4 +1,4 @@
-# 🕹️ Project 2 - Building a Llama 2 chatbot
+# 🕹️ Project 2 <br> Building a Llama 2 chatbot
 
 ## What are we building?
 
