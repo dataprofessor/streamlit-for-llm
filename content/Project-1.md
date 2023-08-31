@@ -1,4 +1,4 @@
-# 🕹️ Project 1 - Building a ChatGPT clone
+# 🕹️ Project 1 <br> Building a ChatGPT clone
 
 ## What are we building?
 
