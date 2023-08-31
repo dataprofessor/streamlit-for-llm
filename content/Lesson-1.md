@@ -25,15 +25,15 @@ In this course, our focus is on text generation and the underlying method for pr
 
 Often times, you might notice that the generative AI term may be used interchangeably with LLMs or GPT (acronym for generative pre-trained transformer) and you'll also notice that this is the case in this lesson as well as others you may find on the internet.
 
+<p align="center">
+   <img src="../img/lesson-1-gen-ai.png" width="90%">
+</p>
+
 ## 2. Rise of Generative AI
 
 Probably the most popular and well-known LLM is ChatGPT, which in a matter of days had reached 1 million users and is approximately supporting over 100 million users. Not only is ChatGPT used by the general public, developers and indie hackers are building some interesting and innovative tools for tackling various use cases.
 
 Technically, the underlying LLM model powering ChatGPT is GPT 3.5 and it has established itself as a gold standard model from which other emerging models are compared against owing to its presence as the first model to market along with its reasonably good performance and low cost.
-
-<p align="center">
-   <img src="../img/lesson-1-gen-ai.png" width="90%">
-</p>
 
 ## 3. Benefits of Generative AI?
 
