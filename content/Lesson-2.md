@@ -1,4 +1,4 @@
-# 📖 Lesson 2 - Using LLM models from OpenAI
+# 📖 Lesson 2 <br>Using LLM models from OpenAI
 
 In this lesson, we'll get you up to speed in using OpenAI for text generation and we'll start from scratch by showing you how to get an API key, installing the `openai` library in Python and up to generating text and build simple ChatGPT-like chatbot.
 
