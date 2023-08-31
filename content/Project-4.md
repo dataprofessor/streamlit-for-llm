@@ -40,7 +40,7 @@ If deploying to Streamlit Community Cloud, you can go ahead and create a `requir
 
 ## Getting your own OpenAI API key
 
-Please refer to the _Getting your own Replicate API token_ section of Lesson 4.
+Please refer to the _Getting your own Replicate API token_ section of **Lesson 4**.
 
 ## Building the chatbot app
 
