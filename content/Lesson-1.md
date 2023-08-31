@@ -40,4 +40,7 @@ Gone are the days where we would stare at a blank document with a blinking curso
 
 With a well crafted prompt, one could brainstorm and generate hundreds of possible ideas; then subsequently turn those idea seeds into an article outline and even a longer form draft. Aside from the content itself, LLM models can also be used to generate complementary contents such as social promotion posts (_e.g._ Twitter posts or threads) and TL;DR summaries, from amongst the plethora of content possibilities. 
 
+## 4. Building Generative AI apps
+
+The motivation for building generative AI apps can stem from various compelling factors, whether it be to solve work-related real-world problems or to build up an impressive portfolio of projects.
 
