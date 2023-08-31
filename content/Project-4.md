@@ -2,7 +2,7 @@
 
 ## What are we building?
 
-In this project, we're going to build a chatbot in Python using Streamlit for the frontend and the open source Llama 2 LLM model from Meta in the backend.
+In this project, we're going to build a coding chatbot in Python using Streamlit for the frontend and the open source Code Llama LLM model from Meta in the backend.
 
 <p align="center">
    <img src="../img/project-2-demo-app.png" width="65%">
@@ -10,12 +10,12 @@ In this project, we're going to build a chatbot in Python using Streamlit for th
 
 ## Try the app
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://llama2.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://code-llama.streamlit.app/)
 
 ## Instructions on using the app
 
 Here are instructions for using the app:
-- **Step 1.** Go to the Llama 2 chatbot at https://llama2.streamlit.app/ or your own deployed instance
+- **Step 1.** Go to the Code Llama chatbot at https://code-llama.streamlit.app/ or your own deployed instance
 - **Step 2.** Enter your own Replicate API token in the sidebar.
 - **Step 3.** Enter a prompt message in the chat input box on the main panel (found at the bottom portion of the page) and hit on `Enter`.
 
@@ -40,7 +40,7 @@ If deploying to Streamlit Community Cloud, you can go ahead and create a `requir
 
 ## Getting your own OpenAI API key
 
-Please refer to the [_Getting your own Replicate API token_](https://github.com/dataprofessor/streamlit-for-generative-ai/blob/master/content/Lesson-4.md#3-getting-your-own-replicate-api-token) section of Lesson 4.
+Please refer to the _Getting your own Replicate API token_ section of Lesson 4.
 
 ## Building the chatbot app
 
