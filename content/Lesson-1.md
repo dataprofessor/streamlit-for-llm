@@ -59,10 +59,11 @@ As mentioned above, we can use generative AI in the data processing phase where 
 Let's now think about some of the generative AI apps that we can build.
 
 
-| App idea | Description | Tech stack |
-|---|---|---|
-| YouTube summarization | Summarize a Youtube video | LLM, Streamlit |
-| Research paper summarization | Summarize a research article from TXT, HTML or PDF | LLM, Streamlit |
-| Chat with an article |  Ask questions about the article from TXT, HTML or PDF | LLM, LangChain, Streamlit |
-
+| App ideas | Description | Tech stack | Example |
+|---|---|---|---|
+| YouTube summarization | Summarize a Youtube video | LLM, Streamlit |  |
+| Research paper summarization | Summarize a research article from TXT, HTML or PDF | LLM, Streamlit |  |
+| Chat with article |  Ask questions about the article from TXT, HTML or PDF | LLM, LangChain, Streamlit |  |
+| Chat with Docs | Ask questions on contents from an open source Documentation website | LLM, LlamaIndex, Streamlit | [App](https://llamaindex-chat-with-docs.streamlit.app/), [Blog](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/) |
+| Chat with Data | Ask questions about a CSV data | LLM, LangChain, Streamlit | [App](https://langchain-ask-the-data.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-5-build-an-ask-the-data-app/) |
 
