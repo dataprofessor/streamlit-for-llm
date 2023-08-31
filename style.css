@@ -16,7 +16,7 @@
                 top: 100px;
             }
 
-[data-testid="baseButton-secondary"]::hover {
+[data-testid="baseButton-secondary"] a:hover {
   background-color: #F63366;
   color: white;
 }
