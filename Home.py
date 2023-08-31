@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 from utilities import load_css
+from streamlit_extras.switch_page_button import switch_page
 
 st.set_page_config(
     page_title="Welcome to the Streamlit for Generative AI course",
@@ -82,3 +83,5 @@ st.markdown('''
 </ul>
 
 ''', unsafe_allow_html=True)
+
+switch_page(Lesson_0_Streamlit)
