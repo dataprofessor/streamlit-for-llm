@@ -17,7 +17,8 @@
             }
 
 [data-testid="baseButton-secondary"]::hover {
-  background-color: black;
+  background-color: #F63366;
+  color: white;
 }
 
 li a:hover {
