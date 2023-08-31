@@ -42,5 +42,12 @@ With a well crafted prompt, one could brainstorm and generate hundreds of possib
 
 ## 4. Building Generative AI apps
 
-The motivation for building generative AI apps can stem from various compelling factors, whether it be to solve work-related real-world problems or to build up an impressive portfolio of projects.
+The motivation for building generative AI apps can stem from various compelling factors, whether it be to solve work-related real-world problems or to build up an impressive portfolio of projects. In either case, a common goal of such effort is to solve real-world problems through the use of AI.
+
+A generic workflow for building an app involves:
+- Identification of a problem to solve,
+- Figure out a solution to the problem through the use of AI and
+- Packaging this into an app that consists of a frontend for accepting user input, a backend that takes and processes (_i.e._ it is hear that the generative AI comes into play) the input and finally relaying the final output back to the frontend.
+
+
 
