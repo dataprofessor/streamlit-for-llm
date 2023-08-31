@@ -6,6 +6,8 @@ In this lesson, we'll cover the fundamentals of the exciting field of generative
 1. [What is Generative AI?](#1-what-is-generative-ai)
 2. [Rise of Generative AI](#2-rise-of-generative-ai)
 3. [Benefits of Generative AI?](#3-benefits-of-generative-ai)
+4. [Building Generative AI apps](#4-building-generative-ai-apps)
+5. [Generative AI app ideas](#5-generative-ai-app-ideas)
 
 ## 1. What is Generative AI?
 
@@ -45,9 +47,13 @@ With a well crafted prompt, one could brainstorm and generate hundreds of possib
 The motivation for building generative AI apps can stem from various compelling factors, whether it be to solve work-related real-world problems or to build up an impressive portfolio of projects. In either case, a common goal of such effort is to solve real-world problems through the use of AI.
 
 A generic workflow for building an app involves:
-- Identification of a problem to solve,
+- Identify a problem to solve,
 - Figure out a solution to the problem through the use of AI and
-- Packaging this into an app that consists of a frontend for accepting user input, a backend that takes and processes (_i.e._ it is hear that the generative AI comes into play) the input and finally relaying the final output back to the frontend.
+- Package this into an app that consists of a frontend for accepting user input, a backend that takes and processes (_i.e._ it is hear that the generative AI comes into play) the input and finally relaying the final output back to the frontend.
+
+As mentioned above, we can use generative AI in the data processing phase where essentially the prompt input is used for generating the LLM response output. In the next section, we'll take a look at some example generative AI apps that we can build.
+
+## 5. Generative AI app ideas
 
 
 
