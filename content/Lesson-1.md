@@ -11,9 +11,9 @@ In this lesson, we'll cover the fundamentals of the exciting field of generative
 
 ## 1. What is Generative AI?
 
-Generative artificial intelligence (also known as Generative AI or Gen AI) has in recent months emerged as a powerful and robust tool that can be used to generate content in various formats including text, image, audio and video. 
+Generative artificial intelligence (also known as Generative AI or Gen AI) has in recent months emerged as a powerful and robust tool that can use prompt inputs to generate new content where both of which can exist in various formats including text, image, audio and video.
 
-In this course, our focus is on text generation and the underlying method for producing such text is made possible by large language models (LLMs). Briefly, as the name imply, LLM is a language model that has been trained on a large data set as well as large number of parameters. Such LLM models can be used for text generation that can be applied in a wide range of use cases:
+In this course, our focus is on text generation and the underlying method for producing such text is made possible by large language models (LLMs). Briefly, as the name imply, LLM is a language model that has been trained on a large data set as well as large number of parameters. Such LLM models can be used for text generation that can be applied on a wide range of use cases:
 - Brainstorm ideas
 - Generate blog drafts
 - Generate social posts
@@ -21,6 +21,7 @@ In this course, our focus is on text generation and the underlying method for pr
 - Text summarization
 - Text paraphrasing
 - Language translation
+- Sentiment analysis
 
 Often times, you might notice that the generative AI term may be used interchangeably with LLMs or GPT (acronym for generative pre-trained transformer) and you'll also notice that this is the case in this lesson as well as others you may find on the internet.
 
@@ -31,7 +32,7 @@ Probably the most popular and well-known LLM is ChatGPT, which in a matter of da
 Technically, the underlying LLM model powering ChatGPT is GPT 3.5 and it has established itself as a gold standard model from which other emerging models are compared against owing to its presence as the first model to market along with its reasonably good performance and low cost.
 
 <p align="center">
-   <img src="../img/lesson-1-gen-ai.png" width="65%">
+   <img src="../img/lesson-1-gen-ai.png" width="90%">
 </p>
 
 ## 3. Benefits of Generative AI?
