@@ -61,7 +61,8 @@ Let's now think about some of the generative AI apps that we can build.
 
 | App ideas | Description | Tech stack | Example |
 |---|---|---|---|
-| YouTube summarization | Summarize a Youtube video | LLM, Streamlit |  |
+| Chatbot | Build a generic chatbot or chatbot with a personality | LLM, Streamlit |
+| YouTube summarization | Summarize a Youtube video | LLM, Streamlit | LLM, LangChain, Streamlit |
 | Research paper summarization | Summarize a research article (TXT, HTML or PDF) | LLM, Streamlit | [App](https://langchain-text-summarization.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-3-build-a-text-summarization-app/) |
 | Questions & Answer over articles |  Ask questions about an article (TXT, HTML or PDF) | LLM, LangChain, Streamlit | [App](https://langchain-ask-the-doc.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-4-build-an-ask-the-doc-app/) |
 | Questions & Answer over Docs | Ask questions on contents from an open source Documentation website | LLM, LlamaIndex, Streamlit | [App](https://llamaindex-chat-with-docs.streamlit.app/), [Blog](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/) |
