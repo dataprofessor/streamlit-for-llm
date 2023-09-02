@@ -154,7 +154,7 @@ Here's a list of methods for displaying information in app:
 - `st.markdown()` - Display text in Markdown format
 - `st.text()` - Display fixed width and pre-formatted text
 - `st.code()` - Display code that can be copied
-- `st.caption()` - 
+- `st.caption()` - Display small caption text.
 
 [//]: # (## 8. Widgets for accepting user information in the app)
 
