@@ -93,6 +93,8 @@ with st.expander('Testing ...'):
         switch_page('Lesson_1_Generative_AI')
 
 
+
+st.markdown('<a href="?page=Lesson_1_Generative_AI" target="_top"> <b>Lesson 1</b> - An introduction to Generative AI </a>', unsafe_allow_html=True)
 params = st.experimental_get_query_params()
 if 'page' in params.keys():
     switch_page(params.get('page')[0])
