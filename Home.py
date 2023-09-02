@@ -91,3 +91,8 @@ with st.expander('Testing ...'):
         
     if st.button('**Lesson 1** - An introduction to Generative AI'):
         switch_page('Lesson_1_Generative_AI')
+
+
+params = st.experimental_get_query_params()
+if 'page' in params.keys():
+    st.write(page)
