@@ -35,6 +35,10 @@ li a:hover {
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
+  /* Reduce margin-bottom for the first button */
+  margin-bottom: 10px; /* Adjust the value to your desired spacing */
+  /* Reduce margin-top for the second button */
+  margin-top: 10px; /* Adjust the value to your desired spacing */
 }
 
 /* Change background color and text color on hover */
