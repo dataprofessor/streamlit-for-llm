@@ -88,6 +88,11 @@ st.markdown('''
 
 if st.button('**Lesson 0** - Getting up to speed with Streamlit'):
     switch_page('Lesson_0_Streamlit')
-        
 if st.button('**Lesson 1** - An introduction to Generative AI'):
     switch_page('Lesson_1_Generative_AI')
+if st.button('**Lesson 2** - Using LLM models from OpenAI'):
+    switch_page('Lesson_2_OpenAI')
+if st.button('**Lesson 3** - Build a HugChat chatbot'):
+    switch_page('Lesson_3_Hugging_Face_Hub')
+if st.button('**Lesson 4** - Using hosted open source LLM models from Replicate'):
+    switch_page('Lesson_4_Replicate')
