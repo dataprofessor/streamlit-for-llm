@@ -96,3 +96,13 @@ if st.button('**Lesson 3** - Build a HugChat chatbot'):
     switch_page('Lesson_3_Hugging_Face_Hub')
 if st.button('**Lesson 4** - Using hosted open source LLM models from Replicate'):
     switch_page('Lesson_4_Replicate')
+if st.button('**Lesson 5** - Orchestrating an LLM workflow with LangChain'):
+    switch_page('Lesson_5_LangChain')
+if st.button('**Project 1** - Build a ChatGPT clone'):
+    switch_page('Project_1_ChatGPT_clone')
+if st.button('**Project 2** - Build a Llama 2 chatbot'):
+    switch_page('Project_2_Llama_2_chatbot')
+if st.button('**Project 3** - Build a HugChat chatbot'):
+    switch_page('Project_3_HugChat_chatbot')
+if st.button('**Project 4** - Build a Code Llama chatbot'):
+    switch_page('Project_4_Code_Llama_chatbot')
