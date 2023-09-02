@@ -151,7 +151,7 @@ Here's a list of methods for displaying information in app:
 - `st.title()` - Display the app's title.
 - `st.header()` - Display text as a section header
 - `st.subheader()` - Display text as a sub-section header
-- `st.write()` - 
+- `st.write()` - Can both display text and write arguments to the app.
 - `st.markdown()` - Display text in Markdown format
 - `st.text()` - Display fixed width and pre-formatted text
 - `st.code()` - Display code that can be copied
