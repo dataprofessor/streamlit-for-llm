@@ -22,7 +22,7 @@ st.header('Table of Contents')
 st.markdown('''
 <ul style="list-style-type:square; margin: 5px;">
    <li>
-      <a href="Lesson_0_Streamlit" target="_self" style="text-decoration: none;">
+      <a href="Lesson_0_Streamlit" target="_top" style="text-decoration: none;">
          <b>Lesson 0</b> - Getting up to speed with Streamlit
       </a>
    </li>
@@ -91,8 +91,3 @@ with st.expander('Testing ...'):
         
     if st.button('**Lesson 1** - An introduction to Generative AI'):
         switch_page('Lesson_1_Generative_AI')
-
-
-
-st.markdown('<a href="/~/+/Lesson_1_Generative_AI" target="_top"> <b>Lesson 1</b> - An introduction to Generative AI </a>', unsafe_allow_html=True)
-
