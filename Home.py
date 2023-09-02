@@ -95,4 +95,4 @@ with st.expander('Testing ...'):
 
 params = st.experimental_get_query_params()
 if 'page' in params.keys():
-    st.write(page)
+    st.write(params.get('page')[0])
