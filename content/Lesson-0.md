@@ -1,4 +1,4 @@
-# 📖 Lesson 0 <br> Getting up to speed with Streamlit
+# 📖 <span style="color:black; background-color: #29b5e8">Lesson 0</span> <br> Getting up to speed with Streamlit
 
 In this lesson, we'll get you started with Streamlit from going over the overarching concept of this low-code web framework, setting up a coding environment and to writing your first Streamlit app.
 
