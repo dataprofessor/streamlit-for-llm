@@ -28,8 +28,8 @@ li a:hover {
 /* Style the button with the class "css-1x5kdwo" */
 .css-1x5kdwo {
   /* Add your button styles here */
-  background-color: #007bff; /* Change to your preferred background color */
-  color: #fff; /* Change to your preferred text color */
+  background-color: #FFF; /* Change to your preferred background color */
+  /* color: #FFF;  /* Change to your preferred text color */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -37,3 +37,8 @@ li a:hover {
   cursor: pointer;
 }
 
+/* Change background color and text color on hover */
+.css-1x5kdwo:hover {
+  background-color: #FFF; /* Change to your preferred hover background color */
+  color: #F63366; /* Change to your preferred hover text color */
+}
