@@ -159,7 +159,12 @@ Here's a list of methods for displaying information in app:
 - `st.latex()` - Display LaTeX expressions
 
 
-[//]: # (## 8. Widgets for accepting user information in the app)
+[//]: # 
+
+## 8. Widgets for accepting user information in the app
+
+A great part about building data-driven apps is the ability to take in user input via various widgets, for example, sliders, text input, number input, color selector, etc. Such widget input can then be used to set model parameters, assign values to function parameters, and so much more.
+
 
 
 ## Summary
