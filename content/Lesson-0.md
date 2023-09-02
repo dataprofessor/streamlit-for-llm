@@ -151,10 +151,13 @@ Here's a list of methods for displaying information in app:
 - `st.title()` - Display the app's title.
 - `st.header()` - Display text as a section header
 - `st.subheader()` - Display text as a sub-section header
+- `st.write()` - 
 - `st.markdown()` - Display text in Markdown format
 - `st.text()` - Display fixed width and pre-formatted text
 - `st.code()` - Display code that can be copied
-- `st.caption()` - Display small caption text.
+- `st.caption()` - Display small caption text
+- `st.latex()` - Display LaTeX expressions
+
 
 [//]: # (## 8. Widgets for accepting user information in the app)
 
