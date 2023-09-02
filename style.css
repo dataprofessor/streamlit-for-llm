@@ -16,10 +16,6 @@
                 top: 100px;
             }
 
-[data-testid="baseButton-secondary"] span:hover {
-  background-color: #F63366;
-  color: white;
-}
 
 li a:hover {
   background: #F7DC6F;
@@ -28,3 +24,16 @@ li a:hover {
 [id="1-lesson-1"]::after {
   padding-top:100px;
 }
+
+/* Style the button with the class "css-1x5kdwo" */
+.css-1x5kdwo {
+  /* Add your button styles here */
+  background-color: #007bff; /* Change to your preferred background color */
+  color: #fff; /* Change to your preferred text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
