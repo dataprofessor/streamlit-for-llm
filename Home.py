@@ -85,9 +85,9 @@ st.markdown('''
 ''', unsafe_allow_html=True)
 
 
-with st.expander('Testing ...'):
-    if st.button('**Lesson 0** - Getting up to speed with Streamlit'):
-        switch_page('Lesson_0_Streamlit')
+
+if st.button('**Lesson 0** - Getting up to speed with Streamlit'):
+    switch_page('Lesson_0_Streamlit')
         
-    if st.button('**Lesson 1** - An introduction to Generative AI'):
-        switch_page('Lesson_1_Generative_AI')
+if st.button('**Lesson 1** - An introduction to Generative AI'):
+    switch_page('Lesson_1_Generative_AI')
