@@ -139,8 +139,22 @@ streamlit run streamlit_app.py
 where `streamlit_app.py` is the Streamlit app that you've just created.
 
 
-[//]: # (## 7. Widgets for displaying information in the app)
+[//]: # 
 
+## 7. Widgets for displaying information in the app
+
+Now that we know how to get a Streamlit app up and running, it's now time to explore how we can display information in the app.
+
+In the Streamlit Documentation page, the [Text elements](https://docs.streamlit.io/library/api-reference/text) and [Write and magic](https://docs.streamlit.io/library/api-reference/write-magic) pages provide several ways in which information can be displayed. 
+
+Here's a list of methods for displaying information in app:
+- `st.title()` - Display the app's title.
+- `st.header()` - Display text as a section header
+- `st.subheader()` - Display text as a sub-section header
+- `st.markdown()` - Display text in Markdown format
+- `st.text()` - Display fixed width and pre-formatted text
+- `st.code()` - Display code that can be copied
+- `st.caption()` - 
 
 [//]: # (## 8. Widgets for accepting user information in the app)
 
