@@ -143,7 +143,7 @@ where `streamlit_app.py` is the Streamlit app that you've just created.
 
 ## 7. Widgets for displaying information in the app
 
-Now that we know how to get a Streamlit app up and running, it's now time to explore how we can display information in the app.
+Now that we know how to create your first Streamlit app and get it up and running, it's now time to explore how we can display information in the app.
 
 In the Streamlit Documentation page, the [Text elements](https://docs.streamlit.io/library/api-reference/text) and [Write and magic](https://docs.streamlit.io/library/api-reference/write-magic) pages provide several ways in which information can be displayed. 
 
