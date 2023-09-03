@@ -163,14 +163,14 @@ Here's a list of methods for displaying information in app:
 A great part about building data-driven apps is the ability to take in user input via various widgets, for example, sliders, text input, number input, color selector, etc. Such widget input can then be used to set model parameters, assign values to function parameters, and so much more.
 
 Here's a list of common input widgets that I typically use:
-- `st.text_input()` - Displays a single-line text input widget
-- `st.number_input()` - Displays a number input widget
-- `st.selectbox()` - Displays a drop-down selection widget
-- `st.multiselect()` - Displays a multi-selection widget
-- `st.slider()` - Displays either a single-value slider or a range slider
-- `st.file_uploader()` - Displays a file upload widget
-- `st.button()` - Displays a button widget
-- `st.download_button()` - Displays a download button widget
+- [`st.text_input()`](https://docs.streamlit.io/library/api-reference/text/st.text_input) - Displays a single-line text input widget
+- [`st.number_input()`](https://docs.streamlit.io/library/api-reference/text/st.number_input) - Displays a number input widget
+- [`st.selectbox()`](https://docs.streamlit.io/library/api-reference/text/st.selectbox) - Displays a drop-down selection widget
+- [`st.multiselect()`](https://docs.streamlit.io/library/api-reference/text/st.multiselect) - Displays a multi-selection widget
+- [`st.slider()`](https://docs.streamlit.io/library/api-reference/text/st.slider) - Displays either a single-value slider or a range slider
+- [`st.file_uploader()`](https://docs.streamlit.io/library/api-reference/text/st.file_uploader) - Displays a file upload widget
+- [`st.button()`](https://docs.streamlit.io/library/api-reference/text/st.button) - Displays a button widget
+- [`st.download_button()`](https://docs.streamlit.io/library/api-reference/text/st.download_button) - Displays a download button widget
 
 Note: It should be mentioned that aside from those listed above, there are several more input widgets from which you can use. More information on the [Input widgets](https://docs.streamlit.io/library/api-reference/widgets) Docs page.
 
