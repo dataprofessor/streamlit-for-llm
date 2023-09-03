@@ -176,7 +176,7 @@ Note: It should be mentioned that aside from those listed above, there are sever
 
 ## 9. Chat elements for building a chatbot
 
-Streamlit currently provides 3 chat elements widgets that is designed for you to use in conjunction with one another, for example, in building a chatbot (or you can also use them separately).
+Streamlit currently provides 3 chat elements widgets (more info in the [Chat elements](https://docs.streamlit.io/library/api-reference/chat) Docs page) that is designed for you to use in conjunction with one another, for example, in building a chatbot (or you can also use them separately).
 
 Here's a list of the chat elements:
 - [`st.chat_input()`](https://docs.streamlit.io/library/api-reference/chat/st.chat_input) - Displays a chat input widget
