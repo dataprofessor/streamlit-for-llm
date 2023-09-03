@@ -169,11 +169,11 @@ Here's a list of common input widgets that I typically use:
 - `st.text_input()` - Displays a single-line text input widget
 - `st.number_input()` - Displays a number input widget
 - `st.selectbox()` - Displays a drop-down selection widget
-- `st.multiselect()`
-- `st.slider()`
-- `st.file_uploader()`
-- `st.button()`
-- `st.download_button()`
+- `st.multiselect()` - Displays a multi-selection widget
+- `st.slider()` - Displays either a single-value slider or a range slider
+- `st.file_uploader()` - Displays a file upload widget
+- `st.button()` - Displays a button widget
+- `st.download_button()` - Displays a download button widget
 
 Note: It should be mentioned that aside from those listed above, there are several more input widgets from which you can use. More information on the [Input widgets](https://docs.streamlit.io/library/api-reference/widgets) Docs page.
 
