@@ -148,15 +148,15 @@ Now that we know how to create your first Streamlit app and get it up and runnin
 In the Streamlit Documentation page, the [Text elements](https://docs.streamlit.io/library/api-reference/text) and [Write and magic](https://docs.streamlit.io/library/api-reference/write-magic) pages provide several ways in which information can be displayed. 
 
 Here's a list of methods for displaying information in app:
-- `st.title()` - Display the app's title.
-- `st.header()` - Display text as a section header
-- `st.subheader()` - Display text as a sub-section header
-- `st.write()` - Can both display text and write arguments to the app.
-- `st.markdown()` - Display text in Markdown format
-- `st.text()` - Display fixed width and pre-formatted text
-- `st.code()` - Display code that can be copied
-- `st.caption()` - Display small caption text
-- `st.latex()` - Display LaTeX expressions
+- [`st.title()`](https://docs.streamlit.io/library/api-reference/text/st.title) - Display the app's title.
+- [`st.header()`](https://docs.streamlit.io/library/api-reference/text/st.header) - Display text as a section header
+- [`st.subheader()`](https://docs.streamlit.io/library/api-reference/text/st.subheader) - Display text as a sub-section header
+- [`st.write()`](https://docs.streamlit.io/library/api-reference/text/st.write) - Can both display text and write arguments to the app.
+- [`st.markdown()`](https://docs.streamlit.io/library/api-reference/text/st.markdown) - Display text in Markdown format
+- [`st.text()`](https://docs.streamlit.io/library/api-reference/text/st.text) - Display fixed width and pre-formatted text
+- [`st.code()`](https://docs.streamlit.io/library/api-reference/text/st.code) - Display code that can be copied
+- [`st.caption()`](https://docs.streamlit.io/library/api-reference/text/st.caption) - Display small caption text
+- [`st.latex()`](https://docs.streamlit.io/library/api-reference/text/st.latex) - Display LaTeX expressions
 
 ## 8. Input widgets for accepting user information in the app
 
