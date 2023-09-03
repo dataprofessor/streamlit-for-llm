@@ -141,7 +141,7 @@ where `streamlit_app.py` is the Streamlit app that you've just created.
 
 [//]: # 
 
-## 7. Widgets for displaying information in the app
+## 7. Methods for displaying information in the app
 
 Now that we know how to create your first Streamlit app and get it up and running, it's now time to explore how we can display information in the app.
 
@@ -161,11 +161,21 @@ Here's a list of methods for displaying information in app:
 
 [//]: # 
 
-## 8. Widgets for accepting user information in the app
+## 8. Input widgets for accepting user information in the app
 
 A great part about building data-driven apps is the ability to take in user input via various widgets, for example, sliders, text input, number input, color selector, etc. Such widget input can then be used to set model parameters, assign values to function parameters, and so much more.
 
+Here's a list of common input widgets that I typically use:
+- `st.text_input()` - Displays a single-line text input widget
+- `st.number_input()` - Displays a number input widget
+- `st.selectbox()` - Displays a drop-down selection widget
+- `st.multiselect()`
+- `st.slider()`
+- `st.file_uploader()`
+- `st.button()`
+- `st.download_button()`
 
+Note: It should be mentioned that aside from those listed above, there are several more input widgets from which you can use. More information on the [Input widgets](https://docs.streamlit.io/library/api-reference/widgets) Docs page.
 
 ## Summary
 
