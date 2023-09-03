@@ -139,7 +139,7 @@ streamlit run streamlit_app.py
 where `streamlit_app.py` is the Streamlit app that you've just created.
 
 
-[//]: # 
+
 
 ## 7. Methods for displaying information in the app
 
@@ -158,9 +158,6 @@ Here's a list of methods for displaying information in app:
 - `st.caption()` - Display small caption text
 - `st.latex()` - Display LaTeX expressions
 
-
-[//]: # 
-
 ## 8. Input widgets for accepting user information in the app
 
 A great part about building data-driven apps is the ability to take in user input via various widgets, for example, sliders, text input, number input, color selector, etc. Such widget input can then be used to set model parameters, assign values to function parameters, and so much more.
@@ -177,6 +174,17 @@ Here's a list of common input widgets that I typically use:
 
 Note: It should be mentioned that aside from those listed above, there are several more input widgets from which you can use. More information on the [Input widgets](https://docs.streamlit.io/library/api-reference/widgets) Docs page.
 
+## 9. Chat elements for building a chatbot
+
+Streamlit currently provides 3 chat elements widgets that is designed for you to use in conjunction with one another, for example, in building a chatbot (or you can also use them separately).
+
+Here's a list of the chat elements:
+- `st.chat_input()` - Displays a chat input widget
+- `st.chat_message()` - Inserts a chat message container for displaying LLM generated responses
+- [`st.status()`](https://docs.streamlit.io/library/api-reference/status/st.status) - Inserts a status container for display output from long-running tasks
+
 ## Summary
 
 In this lesson, we're introduced to Streamlit along with how to setup a computing environment as well as creating our first Streamlit app.
+
+[//]: # 
