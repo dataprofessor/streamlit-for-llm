@@ -233,4 +233,4 @@ st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-
 my_js = """
 window.location.replace('#lesson-0-getting-up-to-speed-with-streamlit');
 """
-st.markdown(f"<script>{my_js}</script>")
+st.markdown(f"<script>{my_js}</script>", unsafe_allow_html=True)
