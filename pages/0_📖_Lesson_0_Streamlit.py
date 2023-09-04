@@ -16,21 +16,22 @@ st.warning('''
   Go ahead and interact with the widget and see its responsive output.
 ''')
 
-st.subheader('st.text_input()')
-st.text('Display a single-line text input widget.')
-col1, col2 = st.columns((2,1))
-with col1:
-  st.markdown('**Code**')
-  st.code('''
-    import streamlit as st
-
+with st.expander('See st.text_input()'):
+  st.subheader('st.text_input()')
+  st.text('Display a single-line text input widget.')
+  col1, col2 = st.columns((2,1))
+  with col1:
+    st.markdown('**Code**')
+    st.code('''
+      import streamlit as st
+  
+      title = st.text_input('Movie title', 'Life of Brian')
+      st.write('The current movie title is', title)
+    ''')
+  with col2:
+    st.markdown('**App**')
     title = st.text_input('Movie title', 'Life of Brian')
     st.write('The current movie title is', title)
-  ''')
-with col2:
-  st.markdown('**App**')
-  title = st.text_input('Movie title', 'Life of Brian')
-  st.write('The current movie title is', title)
 
 
 st.subheader('st.number_input()')
