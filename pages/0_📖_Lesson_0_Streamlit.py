@@ -173,11 +173,10 @@ with st.expander('See st.chat_message() example', expanded=True):
   st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_message)')
 
 
-with st.expander('See st.status() example'):
-  st.subheader('st.status()')
-  st.text('Insert a status container to display output from long-running tasks.')
-  col1, col2 = st.columns((3,2))
-  with col1:
+st.subheader('st.status()')
+st.text('Insert a status container to display output from long-running tasks.')
+col1, col2 = st.columns((3,2))
+with col1:
     st.markdown('**Code**')
     st.code('''
       import streamlit as st
@@ -192,7 +191,7 @@ with st.expander('See st.status() example'):
         time.sleep(1)
       st.button('Rerun')
     ''')
-  with col2:
+with col2:
     st.markdown('**App**')
     with st.status("Downloading data..."):
       st.write("Searching for data...")
@@ -202,7 +201,7 @@ with st.expander('See st.status() example'):
       st.write("Downloading data...")
       time.sleep(1)
     st.button("Rerun")
-  st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_message)')
+st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_message)')
 
 
 
