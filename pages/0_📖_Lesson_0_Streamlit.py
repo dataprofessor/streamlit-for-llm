@@ -10,7 +10,9 @@ st.markdown(md, unsafe_allow_html=True)
 
 st.divider()
 st.header('Examples')
-st.warning('Below you will see the code snippet to the left and the corresponding widget in app to the right. Go ahead and interact with the widget and see its responsive output.')
+st.warning('''
+  Below you will see the code snippet to the left and the corresponding widget in app to the right. Go ahead and interact with the widget and see its responsive output.
+''')
 
 st.subheader('st.text_input()')
 col1, col2 = st.columns((2,1))
