@@ -218,7 +218,7 @@ st.code('''
   ''')
 
 if 'prompt' not in st.session_state:
-  st.session_state.prompt
+  st.session_state.prompt = st.chat_input("Say something")
 
 st.markdown('**App**')
 if st.button('See chat_input'):
