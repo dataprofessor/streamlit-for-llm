@@ -3,6 +3,7 @@ import numpy as np
 import time
 from utilities import load_css, read_md
 from streamlit_extras.sandbox import sandbox
+from streamlit_extras.colored_header import colored_header
 
 st.set_page_config(page_title="Project 0 - Streamlit Chat elements", page_icon="🛠️", layout="wide")
 
@@ -94,7 +95,10 @@ sandbox(embedded_app)
 st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_input)')
 
 
-st.divider()
+colored_header(
+    label="Building an Echo bot",
+    color_name="blue-70",
+)
 
 
 st.header('Building an Echo bot')
