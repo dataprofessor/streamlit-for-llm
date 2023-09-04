@@ -212,3 +212,13 @@ We used the `:=` operator to assign the user\'s input to the `prompt` variable a
 
 All that\'s left to do is add the chatbot\'s responses within the `if` block. We\'ll use the same logic as before to display the bot\'s response (which is just the user\'s prompt) in the chat message container and add it to the history.
 ''')
+
+st.code('''
+response = f"Echo: {prompt}"
+# Display assistant response in chat message container
+with st.chat_message("assistant"):
+    st.markdown(response)
+# Add assistant response to chat history
+st.session_state.messages.append({"role": "assistant", "content": response})
+''')
+
