@@ -17,6 +17,27 @@ st.warning('''
   Go ahead and interact with the widget and see its responsive output.
 ''')
 
+st.subheader('Output widgets')
+
+with st.expander('See st.title() example', expanded=True):
+  st.subheader('st.title()')
+  st.text('Display text in title formatting.')
+  col1, col2 = st.columns((2,1))
+  with col1:
+    st.markdown('**Code**')
+    st.code('''
+      import streamlit as st
+
+      st.title('This is a title')
+      st.title('_Streamlit_ is :blue[cool] :sunglasses:')
+    ''')
+  with col2:
+    st.markdown('**App**')
+    st.title('This is a title')
+    st.title('_Streamlit_ is :blue[cool] :sunglasses:')
+  st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/text/st.title)')
+
+
 
 st.subheader('Input widgets')
 
