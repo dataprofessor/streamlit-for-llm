@@ -8,7 +8,7 @@ load_css()
 md = read_md('Lesson-0.md')
 st.markdown(md, unsafe_allow_html=True)
 
-
+st.divider()
 st.header('Examples')
 
 st.subheader('st.text_input()')
