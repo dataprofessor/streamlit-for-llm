@@ -1,7 +1,7 @@
 import streamlit as st
 from utilities import load_css, read_md
 
-st.set_page_config(page_title="Lesson 0 - Getting up to speed with Streamlit", page_icon="📖")
+st.set_page_config(page_title="Lesson 0 - Getting up to speed with Streamlit", page_icon="📖", layout="wide")
 
 load_css()
 
