@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 from utilities import load_css, read_md
 
 st.set_page_config(page_title="Lesson 0 - Getting up to speed with Streamlit", page_icon="📖", layout="wide")
@@ -36,6 +37,33 @@ with st.expander('See st.title() example', expanded=True):
     st.title('This is a title')
     st.title('_Streamlit_ is :blue[cool] :sunglasses:')
   st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/text/st.title)')
+
+
+with st.expander('See st.write() example', expanded=True):
+  st.subheader('st.write()')
+  st.text('Write arguments to the app. This is the Swiss Army knife of Streamlit commands: it does different things depending on what you throw at it.')
+  col1, col2 = st.columns((2,1))
+  with col1:
+    st.markdown('**Code**')
+    st.code('''
+      import streamlit as st
+      import pandas as pd
+
+      st.write('Hello, *World!* :sunglasses:')
+      st.write(pd.DataFrame({
+        'first column': [1, 2, 3, 4],
+        'second column': [10, 20, 30, 40],
+      }))
+      
+    ''')
+  with col2:
+    st.markdown('**App**')
+    st.write('Hello, *World!* :sunglasses:')
+    st.write(pd.DataFrame({
+      'first column': [1, 2, 3, 4],
+      'second column': [10, 20, 30, 40],
+    }))
+  st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/text/st.write)')
 
 
 
