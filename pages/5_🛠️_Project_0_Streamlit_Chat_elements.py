@@ -190,3 +190,9 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 ''')
+
+st.markdown('''
+In the above snippet, we\'ve added a title to our app and a for loop to iterate through the chat history and display each message in the chat message container (with the author role and message content). We\'ve also added a check to see if the messages key is in `st.session_state`. If it\'s not, we initialize it to an empty list. This is because we\'ll be adding messages to the list later on, and we don\'t want to overwrite the list every time the app reruns.
+
+Now let's accept user input with `st.chat_input`, display the user\'s message in the chat message container, and add it to the chat history.
+''')
