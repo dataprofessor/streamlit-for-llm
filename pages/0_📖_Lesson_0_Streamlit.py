@@ -145,3 +145,26 @@ with st.expander('See st.selectbox() example'):
       ('Email', 'Home phone', 'Mobile phone'))
     st.write('You selected:', option)
   st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/widgets/st.selectbox)')
+
+
+st.subheader('Chat elements')
+
+with st.expander('See st.chat_input() example', expanded=True):
+  st.subheader('st.chat_input()')
+  st.text('Display a chat input widget.')
+  col1, col2 = st.columns((3,2))
+  with col1:
+    st.markdown('**Code**')
+    st.code('''
+      import streamlit as st
+  
+      prompt = st.chat_input("Say something")
+      if prompt:
+        st.write(f"User has sent the following prompt: {prompt}")
+    ''')
+  with col2:
+    st.markdown('**App**')
+    prompt = st.chat_input("Say something")
+    if prompt:
+      st.write(f"User has sent the following prompt: {prompt}")
+  st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_input)')
