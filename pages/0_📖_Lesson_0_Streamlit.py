@@ -75,19 +75,11 @@ with st.expander('See st.latex() example'):
     st.code('''
       import streamlit as st
 
-      st.latex(r"""
-        a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
-        \sum_{k=0}^{n-1} ar^k =
-        a \left(\frac{1-r^{n}}{1-r}\right)
-      """)
+      st.latex(r"E=mc^2")
     ''')
   with col2:
     st.markdown('**App**')
-    st.latex(r'''
-      a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
-      \sum_{k=0}^{n-1} ar^k =
-      a \left(\frac{1-r^{n}}{1-r}\right)
-    ''')
+    st.latex(r"E=mc^2")
   st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/text/st.latex)')
 
 
