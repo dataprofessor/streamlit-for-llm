@@ -196,3 +196,19 @@ In the above snippet, we\'ve added a title to our app and a for loop to iterate 
 
 Now let's accept user input with `st.chat_input`, display the user\'s message in the chat message container, and add it to the chat history.
 ''')
+
+st.code('''
+# React to user input
+if prompt := st.chat_input("What is up?"):
+    # Display user message in chat message container
+    with st.chat_message("user"):
+        st.markdown(prompt)
+    # Add user message to chat history
+    st.session_state.messages.append({"role": "user", "content": prompt})
+''')
+
+st.markdown('''
+We used the `:=` operator to assign the user\'s input to the `prompt` variable and checked if it\'s not `None` in the same line. If the user has sent a message, we display the message in the chat message container and append it to the chat history.
+
+All that\'s left to do is add the chatbot's responses within the `if` block. We\'ll use the same logic as before to display the bot\'s response (which is just the user\'s prompt) in the chat message container and add it to the history.
+''')
