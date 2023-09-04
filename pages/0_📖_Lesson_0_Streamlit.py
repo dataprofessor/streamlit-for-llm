@@ -16,7 +16,7 @@ st.warning('''
   Go ahead and interact with the widget and see its responsive output.
 ''')
 
-with st.expander('See st.text_input()', expanded=True):
+with st.expander('See st.text_input() example', expanded=True):
   st.subheader('st.text_input()')
   st.text('Display a single-line text input widget.')
   col1, col2 = st.columns((2,1))
@@ -33,7 +33,7 @@ with st.expander('See st.text_input()', expanded=True):
     title = st.text_input('Movie title', 'Life of Brian')
     st.write('The current movie title is', title)
 
-with st.expander('See st.number_input()'):
+with st.expander('See st.number_input() example'):
   st.subheader('st.number_input()')
   st.text('Display a numeric input widget.')
   col1, col2 = st.columns((2,1))
