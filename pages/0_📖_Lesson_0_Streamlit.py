@@ -217,11 +217,9 @@ st.code('''
     st.write(f"User has sent the following prompt: {prompt}")
   ''')
 
-if 'prompt' not in st.session_state:
-  st.session_state.prompt = ""
-
 st.markdown('**App**')
-st.chat_input("Say something", key="prompt")
-st.write(f"User has sent the following prompt: {st.session_state.prompt}")
+prompt = st.chat_input("Say something")
+if prompt:
+  st.write(f"User has sent the following prompt: {prompt}")
 
 st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_input)')
