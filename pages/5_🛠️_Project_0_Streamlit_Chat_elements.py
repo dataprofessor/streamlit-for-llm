@@ -164,7 +164,7 @@ def echo_bot():
         # Add assistant response to chat history
         st.session_state.messages.append({"role": "assistant", "content": response})
     
-sandbox(echo_bot, height=400)
+sandbox(echo_bot, height=450)
 
 st.header('Code explanation of the Echo bot', divider='red')
 st.markdown("""
