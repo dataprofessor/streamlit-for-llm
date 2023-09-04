@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from utilities import load_css, read_md
 
-st.set_page_config(page_title="Project 0 - Streamlit Chat elements", page_icon="🛠️")
+st.set_page_config(page_title="Project 0 - Streamlit Chat elements", page_icon="🛠️", layout="wide")
 
 load_css()
 
