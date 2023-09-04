@@ -14,6 +14,8 @@ st.markdown(md, unsafe_allow_html=True)
 
 st.divider()
 
+st.header('Building blocks of chat elements', divider='blue')
+
 st.subheader('st.chat_message()')
 st.text('Insert a chat message container.')
 col1, col2 = st.columns((3,2))
