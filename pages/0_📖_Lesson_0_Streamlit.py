@@ -7,3 +7,15 @@ load_css()
 
 md = read_md('Lesson-0.md')
 st.markdown(md, unsafe_allow_html=True)
+
+col1, col2 = st.columns(2)
+with col1:
+  st.code('''
+    import streamlit as st
+
+    title = st.text_input('Movie title', 'Life of Brian')
+    st.write('The current movie title is', title)
+  ''')
+with col2:
+  title = st.text_input('Movie title', 'Life of Brian')
+  st.write('The current movie title is', title)
