@@ -201,7 +201,7 @@ with st.expander('See st.status() example'):
       time.sleep(1)
       st.write("Downloading data...")
       time.sleep(1)
-    st.button('Rerun')
+    st.button("Rerun")
   st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_message)')
 
 
