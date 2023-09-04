@@ -76,6 +76,7 @@ with st.expander('See st.number_input() example'):
     st.markdown('**App**')
     number = st.number_input('Insert a number', 10)
     st.write('The current number is ', number)
+  st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/widgets/st.number_input)')
 
 
 with st.expander('See st.selectbox() example'):
@@ -98,3 +99,4 @@ with st.expander('See st.selectbox() example'):
       'How would you like to be contacted?',
       ('Email', 'Home phone', 'Mobile phone'))
     st.write('You selected:', option)
+  st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/widgets/st.selectbox)')
