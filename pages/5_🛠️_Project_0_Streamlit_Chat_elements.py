@@ -101,7 +101,7 @@ colored_header(
 )
 
 
-st.header('Building an Echo bot')
+#st.header('Building an Echo bot')
 st.markdown('''
     In this example app, we are going to build a simple Echo bot that simply returns the exact message that we entered.
     
