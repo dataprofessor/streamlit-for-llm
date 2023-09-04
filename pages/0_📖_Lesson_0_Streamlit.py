@@ -89,7 +89,7 @@ st.subheader('Input widgets')
 with st.expander('See st.text_input() example', expanded=True):
   st.subheader('st.text_input()')
   st.text('Display a single-line text input widget.')
-  col1, col2 = st.columns((2,1))
+  col1, col2 = st.columns((3,2))
   with col1:
     st.markdown('**Code**')
     st.code('''
