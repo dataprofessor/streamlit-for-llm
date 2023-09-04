@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import time
 from utilities import load_css, read_md
-from streamlit_extras.switch_page_button import switch_page
+from streamlit.components.v1 import html
 
 st.set_page_config(page_title="Lesson 0 - Getting up to speed with Streamlit", page_icon="📖", layout="wide")
 
@@ -225,3 +225,16 @@ if prompt:
   st.write(f"User has sent the following prompt: {prompt}")
 
 st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_input)')
+
+
+
+
+
+# Javascript for scrolling to top
+my_js = """
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+"""
+my_html = f"<script>{my_js}</script>"
+html(my_html)
