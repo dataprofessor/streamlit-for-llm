@@ -9,6 +9,9 @@ In this lesson, we'll get you started with Streamlit from going over the overarc
 4. [Setting up your Streamlit workspace](#4-setting-up-your-streamlit-workspace)
 5. [Creating your first Streamlit app](#5-creating-your-first-streamlit-app)
 6. [Running the Streamlit app](#6-running-the-streamlit-app)
+7. [Methods for displaying information in the app](#7-methods-for-displaying-information-in-the-app)
+8. [Input widgets for accepting user information in the app](#8-input-widgets-for-accepting-user-information-in-the-app)
+9. [Chat elements for building a chatbot](#9-chat-elements-for-building-a-chatbot)
 
 ## 1. What is Streamlit?
 
