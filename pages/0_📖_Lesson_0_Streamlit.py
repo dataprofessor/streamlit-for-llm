@@ -16,7 +16,6 @@ st.warning('''
   Go ahead and interact with the widget and see its responsive output.
 ''')
 
-
 with st.expander('See st.text_input() example', expanded=True):
   st.subheader('st.text_input()')
   st.text('Display a single-line text input widget.')
@@ -34,6 +33,7 @@ with st.expander('See st.text_input() example', expanded=True):
     title = st.text_input('Movie title', 'Life of Brian')
     st.write('The current movie title is', title)
   st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/widgets/st.text_input)')
+
 
 with st.expander('See st.number_input() example'):
   st.subheader('st.number_input()')
