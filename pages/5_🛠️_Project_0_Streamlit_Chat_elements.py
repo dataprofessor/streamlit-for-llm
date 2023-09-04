@@ -14,7 +14,7 @@ st.markdown(md, unsafe_allow_html=True)
 
 st.divider()
 
-st.header('Building blocks of chat elements', divider='blue')
+st.header('Building blocks of chat elements', divider='red')
 
 st.subheader('st.chat_message()')
 st.text('Insert a chat message container.')
@@ -100,7 +100,7 @@ st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-
 st.divider()
 
 
-st.header('Building an Echo bot', divider='blue')
+st.header('Building an Echo bot', divider='red')
 st.markdown('''
     In this example app, we are going to build a simple Echo bot that simply returns the exact message that we entered.
     
