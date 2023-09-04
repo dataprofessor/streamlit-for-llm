@@ -39,7 +39,7 @@ with st.expander('See st.title() example', expanded=True):
   st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/text/st.title)')
 
 
-with st.expander('See st.write() example', expanded=True):
+with st.expander('See st.write() example'):
   st.subheader('st.write()')
   st.text('Write arguments to the app. This is the Swiss Army knife of Streamlit commands: it does different things depending on what you throw at it.')
   col1, col2 = st.columns((2,1))
@@ -64,6 +64,31 @@ with st.expander('See st.write() example', expanded=True):
       'second column': [10, 20, 30, 40],
     }))
   st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/text/st.write)')
+
+
+with st.expander('See st.latex() example'):
+  st.subheader('st.latex()')
+  st.text('Display mathematical expressions formatted as LaTeX.')
+  col1, col2 = st.columns((2,1))
+  with col1:
+    st.markdown('**Code**')
+    st.code('''
+      import streamlit as st
+
+      st.latex(r"""
+        a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
+        \sum_{k=0}^{n-1} ar^k =
+        a \left(\frac{1-r^{n}}{1-r}\right)
+      """)
+    ''')
+  with col2:
+    st.markdown('**App**')
+    st.latex(r'''
+      a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
+      \sum_{k=0}^{n-1} ar^k =
+      a \left(\frac{1-r^{n}}{1-r}\right)
+    ''')
+  st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/text/st.latex)')
 
 
 
