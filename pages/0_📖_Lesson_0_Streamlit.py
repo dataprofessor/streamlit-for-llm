@@ -16,6 +16,9 @@ st.warning('''
   Go ahead and interact with the widget and see its responsive output.
 ''')
 
+
+st.subheader('Input widgets')
+
 with st.expander('See st.text_input() example', expanded=True):
   st.subheader('st.text_input()')
   st.text('Display a single-line text input widget.')
