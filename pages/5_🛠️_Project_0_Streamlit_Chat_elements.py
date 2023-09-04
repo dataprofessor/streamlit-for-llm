@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import time
 from utilities import load_css, read_md
+from streamlit_extras.sandbox import sandbox
 
 st.set_page_config(page_title="Project 0 - Streamlit Chat elements", page_icon="🛠️", layout="wide")
 
@@ -79,10 +80,16 @@ st.code('''
   ''')
 
 st.markdown('**App**')
-prompt = st.chat_input("Say something")
 
-if prompt:
-  st.write(f"User has sent the following prompt: {prompt}")
+def embedded_app():
+    import streamlit as st
+    
+    prompt = st.chat_input("Say something")
+
+    if prompt:
+      st.write(f"User has sent the following prompt: {prompt}")
+
+sandbox(embedded_app)
 
 st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_input)')
 
