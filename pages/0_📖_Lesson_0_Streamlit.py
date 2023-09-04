@@ -218,7 +218,7 @@ st.code('''
   ''')
 
 st.markdown('**App**')
-if st.button('See chat_input')
+if st.button('See chat_input'):
   prompt = st.chat_input("Say something")
   if prompt:
     st.write(f"User has sent the following prompt: {prompt}")
