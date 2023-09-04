@@ -10,7 +10,7 @@ load_css()
 md = read_md('Project-0.md')
 st.markdown(md, unsafe_allow_html=True)
 
-
+st.divider()
 
 st.subheader('st.chat_message()')
 st.text('Insert a chat message container.')
@@ -32,6 +32,7 @@ with col2:
       st.line_chart(np.random.randn(30, 3))
 st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_message)')
 
+st.divider()
 
 st.subheader('st.status()')
 st.text('Insert a status container to display output from long-running tasks.')
@@ -63,7 +64,7 @@ with col2:
         time.sleep(1)
 st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_message)')
 
-
+st.divider()
 
 st.subheader('st.chat_input()')
 st.text('Display a chat input widget.')
