@@ -98,7 +98,7 @@ st.divider()
 
 
 st.header('Building an Echo bot')
-st.text('In this example app, we're going to build a simple Echo bot that simply returns the exact message that we entered.')
+st.text('In this example app, we are going to build a simple Echo bot that simply returns the exact message that we entered.')
 st.markdown('This example app from the [Build conversational apps](https://docs.streamlit.io/knowledge-base/tutorials/build-conversational-apps#build-a-bot-that-mirrors-your-input) article.')
 
 def echo_bot():
