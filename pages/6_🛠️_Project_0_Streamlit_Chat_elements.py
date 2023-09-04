@@ -92,7 +92,7 @@ def embedded_app():
     if prompt:
       st.write(f"User has sent the following prompt: {prompt}")
 
-sandbox(embedded_app)
+sandbox(embedded_app, height=450)
 
 st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_input)')
 
