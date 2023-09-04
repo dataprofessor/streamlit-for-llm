@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import time
 from utilities import load_css, read_md
+from streamlit_extras.switch_page_button import switch_page
 
 st.set_page_config(page_title="Lesson 0 - Getting up to speed with Streamlit", page_icon="📖", layout="wide")
 
@@ -219,7 +220,11 @@ st.code('''
 
 st.markdown('**App**')
 prompt = st.chat_input("Say something")
+
 if prompt:
   st.write(f"User has sent the following prompt: {prompt}")
+
+
+switch_page('Lesson_0_Streamlit#lesson-0-getting-up-to-speed-with-streamlit')
 
 st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_input)')
