@@ -12,7 +12,8 @@ In this lesson, we'll get you started with Streamlit from going over the overarc
 7. [Methods for displaying information in the app](#7-methods-for-displaying-information-in-the-app)
 8. [Input widgets for accepting user information in the app](#8-input-widgets-for-accepting-user-information-in-the-app)
 9. [Chat elements for building a chatbot](#9-chat-elements-for-building-a-chatbot)
-10. [Examples](#10-examples)
+10. [Summary](#summary)
+11. [Examples](#examples)
 
 ## 1. What is Streamlit?
 
