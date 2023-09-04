@@ -232,7 +232,7 @@ st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-
 
 # Javascript for scrolling to top
 my_js = """
-$(document).load().scrollTop(0);
+window.location.replace('#lesson-0-getting-up-to-speed-with-streamlit');
 """
 my_html = f"<script>{my_js}</script>"
 html(my_html)
