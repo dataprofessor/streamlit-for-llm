@@ -168,7 +168,7 @@ sandbox(echo_bot, height=450)
 
 st.header('Code explanation of the Echo bot', divider='red')
 st.markdown("""
-In this section, we'll build a bot that mirrors or echoes your input. More specifically, the bot will respond to your input with the same message. We'll use `st.chat_message` to display the user's input and `st.chat_input` to accept user input. We'll also use session state to store the chat history so we can display it in the chat message container.
+The above code snippet allows us to build a bot that mirrors or echoes your input. More specifically, the bot will respond to your input with the same message. We'll use `st.chat_message` to display the user's input and `st.chat_input` to accept user input. We'll also use session state to store the chat history so we can display it in the chat message container.
 
 
 
