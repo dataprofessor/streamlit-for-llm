@@ -32,6 +32,7 @@ with st.expander('See st.text_input() example', expanded=True):
     st.markdown('**App**')
     title = st.text_input('Movie title', 'Life of Brian')
     st.write('The current movie title is', title)
+st.markdown([More info on the Docs page](https://docs.streamlit.io/library/api-reference/widgets/st.text_input))
 
 with st.expander('See st.number_input() example'):
   st.subheader('st.number_input()')
