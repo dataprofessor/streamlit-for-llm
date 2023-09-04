@@ -182,7 +182,7 @@ with col1:
       import streamlit as st
       import time
 
-      if st.button('Rerun'):
+      if st.button('Start'):
         with st.status("Downloading data..."):
           st.write("Searching for data...")
           time.sleep(2)
@@ -193,7 +193,7 @@ with col1:
     ''')
 with col2:
     st.markdown('**App**')
-    if st.button('Rerun'):
+    if st.button('Start'):
       with st.status("Downloading data..."):
         st.write("Searching for data...")
         time.sleep(2)
