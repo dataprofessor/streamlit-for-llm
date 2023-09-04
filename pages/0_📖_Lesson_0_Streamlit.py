@@ -224,13 +224,3 @@ if prompt:
   st.write(f"User has sent the following prompt: {prompt}")
 
 st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_input)')
-
-
-
-
-
-# Javascript for scrolling to top
-my_js = """
-window.location.replace('#lesson-0-getting-up-to-speed-with-streamlit');
-"""
-st.markdown(f"<script>{my_js}</script>", unsafe_allow_html=True)
