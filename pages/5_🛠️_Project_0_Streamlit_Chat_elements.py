@@ -95,13 +95,10 @@ sandbox(embedded_app)
 st.markdown('[More info on the Docs page](https://docs.streamlit.io/library/api-reference/chat/st.chat_input)')
 
 
-colored_header(
-    label="Building an Echo bot",
-    color_name="blue-70",
-)
+st.divider()
 
 
-#st.header('Building an Echo bot')
+st.header('Building an Echo bot', divider='blue')
 st.markdown('''
     In this example app, we are going to build a simple Echo bot that simply returns the exact message that we entered.
     
