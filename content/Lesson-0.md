@@ -146,7 +146,7 @@ where `streamlit_app.py` is the Streamlit app that you've just created.
 
 
 
-## 7. Methods for displaying information in the app
+## 7. Output widgets for displaying information in the app
 
 Now that we know how to create your first Streamlit app and get it up and running, it's now time to explore how we can display information in the app.
 
