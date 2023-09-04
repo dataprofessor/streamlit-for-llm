@@ -8,6 +8,7 @@ load_css()
 md = read_md('Lesson-0.md')
 st.markdown(md, unsafe_allow_html=True)
 
+
 st.divider()
 st.header('Examples')
 st.warning('''
@@ -54,3 +55,25 @@ with st.expander('See st.number_input() example'):
     st.markdown('**App**')
     number = st.number_input('Insert a number', 10)
     st.write('The current number is ', number)
+
+
+with st.expander('See st.selectbox() example'):
+  st.subheader('st.selectbox()')
+  st.text('Display a select widget.')
+  col1, col2 = st.columns((2,1))
+  with col1:
+    st.markdown('**Code**')
+    st.code('''
+      import streamlit as st
+
+      option = st.selectbox(
+        'How would you like to be contacted?',
+        ('Email', 'Home phone', 'Mobile phone'))
+      st.write('You selected:', option)
+    ''')
+  with col2:
+    st.markdown('**App**')
+    option = st.selectbox(
+      'How would you like to be contacted?',
+      ('Email', 'Home phone', 'Mobile phone'))
+    st.write('You selected:', option)
