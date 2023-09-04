@@ -150,7 +150,7 @@ with st.expander('See st.selectbox() example'):
 
 st.subheader('Chat elements')
 
-with st.expander('See st.chat_message() example'):
+with st.expander('See st.chat_message() example', expanded=True):
   st.subheader('st.chat_message()')
   st.text('Insert a chat message container.')
   col1, col2 = st.columns((3,2))
