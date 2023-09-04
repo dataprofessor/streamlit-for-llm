@@ -23,7 +23,7 @@ st.subheader('Output widgets')
 with st.expander('See st.title() example', expanded=True):
   st.subheader('st.title()')
   st.text('Display text in title formatting.')
-  col1, col2 = st.columns((2,1))
+  col1, col2 = st.columns((3,2))
   with col1:
     st.markdown('**Code**')
     st.code('''
@@ -42,7 +42,7 @@ with st.expander('See st.title() example', expanded=True):
 with st.expander('See st.write() example'):
   st.subheader('st.write()')
   st.text('Write arguments to the app. This is the Swiss Army knife of Streamlit commands: it does different things depending on what you throw at it.')
-  col1, col2 = st.columns((2,1))
+  col1, col2 = st.columns((3,2))
   with col1:
     st.markdown('**Code**')
     st.code('''
@@ -69,7 +69,7 @@ with st.expander('See st.write() example'):
 with st.expander('See st.latex() example'):
   st.subheader('st.latex()')
   st.text('Display mathematical expressions formatted as LaTeX.')
-  col1, col2 = st.columns((2,1))
+  col1, col2 = st.columns((3,2))
   with col1:
     st.markdown('**Code**')
     st.code('''
@@ -108,7 +108,7 @@ with st.expander('See st.text_input() example', expanded=True):
 with st.expander('See st.number_input() example'):
   st.subheader('st.number_input()')
   st.text('Display a numeric input widget.')
-  col1, col2 = st.columns((2,1))
+  col1, col2 = st.columns((3,2))
   with col1:
     st.markdown('**Code**')
     st.code('''
@@ -127,7 +127,7 @@ with st.expander('See st.number_input() example'):
 with st.expander('See st.selectbox() example'):
   st.subheader('st.selectbox()')
   st.text('Display a select widget.')
-  col1, col2 = st.columns((2,1))
+  col1, col2 = st.columns((3,2))
   with col1:
     st.markdown('**Code**')
     st.code('''
