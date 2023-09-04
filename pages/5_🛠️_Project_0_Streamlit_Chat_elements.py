@@ -104,7 +104,7 @@ st.header('Building an Echo bot', divider='red')
 st.markdown('''
     In this example app, we are going to build a simple Echo bot that simply returns the exact message that we entered.
     
-    This example app is from the [Build conversational apps](https://docs.streamlit.io/knowledge-base/tutorials/build-conversational-apps#build-a-bot-that-mirrors-your-input) article.
+    This example app is from the [Build conversational apps](https://docs.streamlit.io/knowledge-base/tutorials/build-conversational-apps#build-a-bot-that-mirrors-your-input) article from the Streamlit Documentation.
 ''')
 
 st.code('''
@@ -166,7 +166,7 @@ def echo_bot():
     
 sandbox(echo_bot)
 
-st.header('Code explanation of the Echo bot')
+st.header('Code explanation of the Echo bot', divider='red')
 st.markdown("""
 In this section, we'll build a bot that mirrors or echoes your input. More specifically, the bot will respond to your input with the same message. We'll use `st.chat_message` to display the user's input and `st.chat_input` to accept user input. We'll also use session state to store the chat history so we can display it in the chat message container.
 
