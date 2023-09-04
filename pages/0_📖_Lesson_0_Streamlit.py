@@ -33,19 +33,19 @@ with st.expander('See st.text_input()', expanded=True):
     title = st.text_input('Movie title', 'Life of Brian')
     st.write('The current movie title is', title)
 
-
-st.subheader('st.number_input()')
-st.text('Display a numeric input widget.')
-col1, col2 = st.columns((2,1))
-with col1:
-  st.markdown('**Code**')
-  st.code('''
-    import streamlit as st
-
-    number = st.number_input('Insert a number')
+with st.expander('See st.number_input()'):
+  st.subheader('st.number_input()')
+  st.text('Display a numeric input widget.')
+  col1, col2 = st.columns((2,1))
+  with col1:
+    st.markdown('**Code**')
+    st.code('''
+      import streamlit as st
+  
+      number = st.number_input('Insert a number')
+      st.write('The current number is ', number)
+    ''')
+  with col2:
+    st.markdown('**App**')
+    number = st.number_input('Insert a number', 10)
     st.write('The current number is ', number)
-  ''')
-with col2:
-  st.markdown('**App**')
-  number = st.number_input('Insert a number', 10)
-  st.write('The current number is ', number)
