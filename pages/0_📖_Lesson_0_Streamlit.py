@@ -18,6 +18,7 @@ st.warning('''
 
 st.subheader('st.text_input()')
 col1, col2 = st.columns((2,1))
+st.text('Display a single-line text input widget.')
 with col1:
   st.markdown('**Code**')
   st.code('''
@@ -33,6 +34,7 @@ with col2:
 
 
 st.subheader('st.number_input()')
+st.text('Display a numeric input widget.')
 col1, col2 = st.columns((2,1))
 with col1:
   st.markdown('**Code**')
