@@ -210,5 +210,5 @@ if prompt := st.chat_input("What is up?"):
 st.markdown('''
 We used the `:=` operator to assign the user\'s input to the `prompt` variable and checked if it\'s not `None` in the same line. If the user has sent a message, we display the message in the chat message container and append it to the chat history.
 
-All that\'s left to do is add the chatbot's responses within the `if` block. We\'ll use the same logic as before to display the bot\'s response (which is just the user\'s prompt) in the chat message container and add it to the history.
+All that\'s left to do is add the chatbot\'s responses within the `if` block. We\'ll use the same logic as before to display the bot\'s response (which is just the user\'s prompt) in the chat message container and add it to the history.
 ''')
