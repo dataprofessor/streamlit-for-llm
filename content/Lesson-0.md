@@ -145,7 +145,6 @@ where `streamlit_app.py` is the Streamlit app that you've just created.
 
 
 
-
 ## 7. Output widgets for displaying information in the app
 
 Now that we know how to create your first Streamlit app and get it up and running, it's now time to explore how we can display information in the app.
@@ -163,6 +162,8 @@ Here's a list of methods for displaying information in app:
 - [`st.caption()`](https://docs.streamlit.io/library/api-reference/text/st.caption) - Display small caption text
 - [`st.latex()`](https://docs.streamlit.io/library/api-reference/text/st.latex) - Display LaTeX expressions
 
+Proceed to **Project 0** to see how to use these widgets in a Streamlit app.
+
 ## 8. Input widgets for accepting user information in the app
 
 A great part about building data-driven apps is the ability to take in user input via various widgets, for example, sliders, text input, number input, color selector, etc. Such widget input can then be used to set model parameters, assign values to function parameters, and so much more.
@@ -179,6 +180,8 @@ Here's a list of common input widgets that I typically use:
 
 Note: It should be mentioned that aside from those listed above, there are several more input widgets from which you can use. More information on the [Input widgets](https://docs.streamlit.io/library/api-reference/widgets) Docs page.
 
+Proceed to **Project 0** to see how to use these widgets in a Streamlit app.
+
 ## 9. Chat elements for building a chatbot
 
 Streamlit currently provides 3 chat elements widgets (more info in the [Chat elements](https://docs.streamlit.io/library/api-reference/chat) Docs page) that is designed for you to use in conjunction with one another, for example, in building a chatbot (or you can also use them separately).
@@ -187,6 +190,8 @@ Here's a list of the chat elements:
 - [`st.chat_input()`](https://docs.streamlit.io/library/api-reference/chat/st.chat_input) - Displays a chat input widget
 - [`st.chat_message()`](https://docs.streamlit.io/library/api-reference/chat/st.chat_message) - Inserts a chat message container for displaying LLM generated responses
 - [`st.status()`](https://docs.streamlit.io/library/api-reference/status/st.status) - Inserts a status container for display output from long-running tasks
+
+Proceed to **Project 0** to see how to use these widgets in a Streamlit app.
 
 ## Summary
 
