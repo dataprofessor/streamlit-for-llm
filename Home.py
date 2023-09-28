@@ -23,15 +23,15 @@ st.header('Table of Contents')
 if st.button('**Lesson 0** - Getting up to speed with Streamlit'):
     switch_page('Lesson_0_Intro_to_Streamlit')
 if st.button('**Lesson 1** - An introduction to Generative AI'):
-    switch_page('Lesson_1_Generative_AI')
+    switch_page('Lesson_1_Intro_to_Gen_AI')
 if st.button('**Lesson 2** - Using LLM models from OpenAI'):
-    switch_page('Lesson_2_OpenAI')
+    switch_page('Lesson_2_Using_LLM_models')
 if st.button('**Lesson 3** - Build a HugChat chatbot'):
-    switch_page('Lesson_3_Hugging_Face_Hub')
+    switch_page('Lesson_3_Using_open_source_LLM')
 if st.button('**Lesson 4** - Using hosted open source LLM models from Replicate'):
-    switch_page('Lesson_4_Replicate')
+    switch_page('Lesson_4_Using_hosted_LLM')
 if st.button('**Lesson 5** - Orchestrating an LLM workflow with LangChain'):
-    switch_page('Lesson_5_LangChain')
+    switch_page('Lesson_5_Orchestrating_LLM_workflow')
 if st.button('**Project 1** - Build a ChatGPT clone'):
     switch_page('Project_1_ChatGPT_clone')
 if st.button('**Project 2** - Build a Llama 2 chatbot'):
