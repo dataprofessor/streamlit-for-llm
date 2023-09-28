@@ -21,7 +21,7 @@ st.info('The Streamlit for Generative AI course will show you how to use Streaml
 st.header('Table of Contents')
 
 if st.button('**Lesson 0** - Getting up to speed with Streamlit'):
-    switch_page('pages/0_📖_Lesson_0_Intro_to_Streamlit')
+    switch_page('Lesson_0_Intro_to_Streamlit')
 if st.button('**Lesson 1** - An introduction to Generative AI'):
     switch_page('Lesson_1_Generative_AI')
 if st.button('**Lesson 2** - Using LLM models from OpenAI'):
