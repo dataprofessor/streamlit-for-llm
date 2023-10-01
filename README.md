@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./img/llm-course-logo.png" width="50%">
+  <img src="./img/course-logo.png" width="50%">
 </p>
 
 ## About
