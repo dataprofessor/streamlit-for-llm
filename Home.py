@@ -11,7 +11,7 @@ st.set_page_config(
 load_css()
 
 img = Image.open('img/course-logo.png')
-st.image(img)
+st.image(img, width=500)
 
 # About
 st.header('About')
