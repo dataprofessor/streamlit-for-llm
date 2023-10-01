@@ -4,7 +4,7 @@ from utilities import load_css
 from streamlit_extras.switch_page_button import switch_page
 
 st.set_page_config(
-    page_title="Welcome to the Streamlit for Generative AI course",
+    page_title="Welcome to the Streamlit for LLM course",
     page_icon="🏠",
 )
 
