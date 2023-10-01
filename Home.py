@@ -10,7 +10,7 @@ st.set_page_config(
 
 load_css()
 
-img = Image.open('img/streamlit-generative-ai-course-logo.png')
+img = Image.open('img/course-logo.png')
 st.image(img)
 
 # About
